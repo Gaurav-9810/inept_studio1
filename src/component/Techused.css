@@ -1,0 +1,84 @@
+
+.tech-btn{
+cursor: pointer;
+border:1px solid black;
+ background-color: white;
+ color:black;
+ 
+}
+.tech-btn:hover{
+      background-color: blueviolet ;
+      color:white;
+      border: none;
+}
+
+.img-icon:hover{
+  width: 50px;
+}
+.Under{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.Under hr{
+  margin:0px;
+  width:9%;
+  border-radius: 25px;
+  display:flex; 
+  justify-content:center;
+  height: 4px;
+  background-color: blueviolet;
+  cursor: pointer;
+  
+}
+.Under:hover hr{
+  transform:scaleX(2.5)  ;
+  transition:  1s ;
+ 
+}
+  
+  
+  @keyframes fadeInUp {
+      from {
+        transform: translate3d(0, 100px, 0);
+      }
+      to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+      }
+    }
+    @-webkit-keyframes fadeInUp {
+      from {
+        transform: translate3d(0, 100px, 0);
+      }
+      to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+      }
+    }
+    .animated {
+      animation-duration: 1ms;
+      animation-fill-mode: both;
+      animation-iteration-count: 1;
+      -webkit-animation-duration: 1ms;
+      -webkit-animation-fill-mode: both;
+      -webkit-animation-iteration-count: 1;
+    }
+    
+    .animatedFadeInUp {
+      opacity: 0;
+    }
+    
+    .fadeInUp {
+      opacity: 0;
+      position: relative;
+      animation-name: fadeInUp;
+      -webkit-animation-name: fadeInUp;
+    }
+    
+    .tech-item:hover{
+      margin-top: -3px;
+      box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    }
+    

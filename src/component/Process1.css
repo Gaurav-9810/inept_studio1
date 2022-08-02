@@ -1,0 +1,110 @@
+*{
+      box-sizing: border-box;
+  }
+  .process_container{
+     /* background-color: aliceblue;  */
+      background-image: url('../images/background1.jpg') ;
+      background-attachment:fixed;
+  
+    background-repeat:no-repeat;
+  
+    background-size:cover;
+  }
+  .process-grid{
+      padding-top: 3rem;
+      padding-left: 3%;
+      padding-right: 3% ;
+      padding-bottom: 2rem;
+      /* background-color:transparent; */
+      filter: blur(0.1px);
+   }
+  
+   .grid{
+      
+      /* background-color:transparent; */
+      filter: blur(0.1px);
+      overflow: hidden;
+      margin-top: 70px;
+      
+   }
+  
+   .item::before {
+  
+      content: "";
+    
+      position: absolute;
+    
+      top: 0;
+    
+      right: 0;
+    
+      bottom: 0;
+    
+      left: 0;
+   
+      box-shadow: inset 0 0 100px rgba(255, 255, 255, 0.61) ;
+    
+      /* margin: -4px */
+      border-radius: 5%;
+    
+    }
+  
+   .item{
+   
+   backdrop-filter:blur(5px);
+   margin-bottom: 1rem;
+   cursor: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/836/hearthstone-cursor.png) 10 2, auto;
+   transition: 0.3s all ease-in-out;
+  
+  }
+  .item:hover{
+      margin-top: -10px;
+  }
+  
+   
+  
+   .container{
+      /* opacity:initial; */
+      /* background-color: transparent; */
+   }
+  
+  
+  
+  
+  @keyframes fadeInUp {
+      from {
+        transform: translate3d(0, 100px, 0);
+      }
+      to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+      }
+    }
+    @-webkit-keyframes fadeInUp {
+      from {
+        transform: translate3d(0, 100px, 0);
+      }
+      to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1;
+      }
+    }
+    .animated {
+      animation-duration: 1ms;
+      animation-fill-mode: both;
+      animation-iteration-count: 1;
+      -webkit-animation-duration: 1ms;
+      -webkit-animation-fill-mode: both;
+      -webkit-animation-iteration-count: 1;
+    }
+    
+    .animatedFadeInUp {
+      opacity: 0;
+    }
+    
+    .fadeInUp {
+      opacity: 0;
+      position: relative;
+      animation-name: fadeInUp;
+      -webkit-animation-name: fadeInUp;
+    }

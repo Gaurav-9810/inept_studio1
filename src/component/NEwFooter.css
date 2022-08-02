@@ -1,0 +1,26 @@
+.footer{
+      background-image: linear-gradient(rgba(6, 7, 12, 6.1),rgba(28, 28, 30, 3));
+      width: 100%;
+      height: auto;
+    }
+
+   
+
+    .social-icons a:hover img{
+      transform: translateY(-12px);
+   }
+
+   .nav-links ul li::after{
+    content: ' ';
+    width: 0%;
+    height: 2px;
+    background: #f44336;
+    display: block;
+    transition: 0.5s;
+
+}
+.nav-links ul li:hover::after{
+  clear: both;
+  width: 30%;
+  box-sizing: border-box;
+}
