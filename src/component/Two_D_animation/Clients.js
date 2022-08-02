@@ -6,47 +6,41 @@ import SwiperCore, {
   Autoplay,
   Virtual
 } from "swiper/core";
-import "../../node_modules/swiper/swiper-bundle.css";
+import "../../../node_modules/swiper/swiper-bundle.css";
 //inept_studio\node_modules\swiper\swiper-bundle.cssswiper/swiper-bundle.css
-import "./Testimonials.css" ;
-import {TestimonialsData} from "./TestimonialsData";
-import TestimonialsTest from './TestimonialsTest.js';
-
+import "./Clients.css";
+import {clientsData} from './Clientsdata.js';
+import Clienttest from './Clienttest.js';
 
 
 SwiperCore.use([Navigation, Pagination, Autoplay, Virtual]);
 
-function Testimonials() {
-  const [x,setx] = useState(window.innerWidth > 1100 ? 2 :1);
+function Clients() {
+  const [x,setx] = useState(window.innerWidth>=1200?4:window.innerWidth>=900?3:window.innerWidth>=550?2:1);
   const[wsize,setwsize] = useState();
   const slides=[];
 
- 
+
+
+
   useEffect(() => {
     
    
-      TestimonialsData.map((item,idx)=>{
+      clientsData.map((item,idx)=>{
         slides.push(
-              <SwiperSlide key={`slide_Tes-${idx}`} style={{ listStyle: "none" ,lineHeight:"" }}>
-                  <TestimonialsTest  item={item}/>
+              <SwiperSlide key={`slide-${idx}`} style={{ listStyle: "none" ,lineHeight:"" }}>
+                  <Clienttest  item={item}/>
                     {/* <div className="slide"></div> */}
               </SwiperSlide>
             );
       });
-      // if(window.innerWidth > 1100){
-      //   console.log("in if")
-      //   setx(2)
-
-
-      // }
-      // else setx(1)
       window.addEventListener("resize", handleResize)
-
-
 
     // handleResize();
     
-  } )
+    console.log(x)
+    
+  })
   
   //  const handleResize = () => {
   //   setwsize(window.screen.width);
@@ -57,14 +51,23 @@ function Testimonials() {
   //  }
 
   const handleResize = () => {
-    if (window.innerWidth < 1100) {
-      console.log("in inner width")
-      setx(1);
-   }
-    else{
-      console.log("in else")
-      setx(2);
+
+    if (window.innerWidth < 550) {
+        setx(1);
     }
+    
+    else if(window.innerWidth >= 550 && window.innerWidth<900){
+        setx(2);
+    } 
+
+    else if (window.innerWidth >= 900 && window.innerWidth < 1200){
+        setx(3);
+    }
+
+    else{
+      setx(4);
+    }
+
   }
 
 
@@ -73,19 +76,14 @@ function Testimonials() {
     {window.addEventListener('resize',handleResize)
     }
      {console.log(window.innerWidth)}
-         
-    <div className="mx-10 my-5 testimonials mt-16 ">
-        
-        <div className="heading"> 
-        
-        <center className = "client_head  "> Client Testimonials </center>
-        <center className = "what_head text-violet-700"> What they are saying </center>
-        
-        </div>
-         
-        <div className="slider_Tes"> 
+    
+    <div className="mx-10 my-5 slider">
+      
+        <center > WORK <span className="text-violet-700">SHOWCASE</span> </center>
+
         <Swiper
-            id="swiper_Tes"
+
+            id="swiper"
             virtual
             slidesPerView={x}
             // slidesPerColumn={2}
@@ -93,7 +91,7 @@ function Testimonials() {
             spaceBetween={30}
             // slidesPerGroup={2}
             autoplay
-            loop
+            // loop
             onReachEnd={() => {
               // console.log("reach end");
               // const tmp = slides.unshift();
@@ -103,13 +101,16 @@ function Testimonials() {
             // pagination
           >
             {slides}
+
       </Swiper>
       
     </div>
-    </div>
+
     </>
   );
     
 }
 
-export default Testimonials
+export default Clients
+
+

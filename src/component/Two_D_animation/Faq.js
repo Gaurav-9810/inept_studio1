@@ -1,5 +1,5 @@
 import React,{useState} from 'react';
-import Faqimg from '../images/Faq.jpg';
+import Faqimg from '../../images/Faq.jpg';
 import "./Faq.css";
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 

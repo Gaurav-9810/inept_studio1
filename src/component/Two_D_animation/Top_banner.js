@@ -12,15 +12,15 @@ import Button from '@mui/material/Button';
 import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
-import Rightimg from '../images/right-bottom.png';
-import RightwhiteCurve from '../images/right-white-curve.png';
-import toplogo from '../images/logo.png';
-import fb from '../images/facebook-icon.png';
-import insta from '../images/instagram-icon.png';
-import linkdin from '../images/linkedin-icon.png';
-import whatsaap from '../images/whatsapp-icon.png'
-import twitter from '../images/twitter-icon.png';
-import sitelogo from '../images/sitelogo.png';
+import Rightimg from '../../images/right-bottom.png';
+import RightwhiteCurve from '../../images/right-white-curve.png';
+import toplogo from '../../images/logo.png';
+import fb from '../../images/facebook-icon.png';
+import insta from '../../images/instagram-icon.png';
+import linkdin from '../../images/linkedin-icon.png';
+import whatsaap from '../../images/whatsapp-icon.png'
+import twitter from '../../images/twitter-icon.png';
+import sitelogo from '../../images/sitelogo.png';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import CloseIcon from '@mui/icons-material/Close';
 import './Top_Banner.css';

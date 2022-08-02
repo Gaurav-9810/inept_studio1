@@ -24,7 +24,7 @@ import cartoon from '../images/cartoon.webp';
 
 // import {Button} from "@material-ui/core";
 import PhotoLibraryIcon from '@mui/icons-material/PhotoLibrary';
-import './Services.css';
+import '../';
 
 const style = {
   position: 'absolute',

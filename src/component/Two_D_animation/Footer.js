@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 // import './Footer.css';
 import './NEwFooter.css'
-import fb from '../images/facebook-icon.png';
-import insta from '../images/instagram-icon.png';
-import linkdin from '../images/linkedin-icon.png';
-import whatsaap from '../images/whatsapp-icon.png'
-import twitter from '../images/twitter-icon.png';
+import fb from '../../images/facebook-icon.png';
+import insta from '../../images/instagram-icon.png';
+import linkdin from '../../images/linkedin-icon.png';
+import whatsaap from '../../images/whatsapp-icon.png'
+import twitter from '../../images/twitter-icon.png';
 // import back from '../images/back.jpg';
-import logo from '../images/logo.png';
+import logo from '../../images/logo.png';
 
 
 
