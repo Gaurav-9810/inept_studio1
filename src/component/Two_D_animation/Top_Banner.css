@@ -9,7 +9,7 @@
  .header{
 	min-height: 70vh;
 	width: 100%;
-	background-image:linear-gradient(rgba(23, 56, 187, 0.704),rgb(53 69 136 / 39%)),url(../images/banner.jpg);
+	background-image:linear-gradient(rgba(23, 56, 187, 0.704),rgb(53 69 136 / 39%)),url(../../images/banner.jpg);
 	background-position: center;
 	background-size: cover;
 	position: relative;

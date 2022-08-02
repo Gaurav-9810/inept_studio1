@@ -2,12 +2,12 @@ import * as React from 'react';
 import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
-import photoshop from '../images/photoshop.png';
-import Pixlr from '../images/Pixlr.jpg';
-import picsArt from '../images/picsArt.jpg';
-import illustrator from '../images/illustrator.png';
-import GravityDesigner from '../images/GravitDesigner.png';
-import ClipStudioPaint from '../images/ClipStudioPaint.png';
+import photoshop from '../../images/photoshop.png';
+import Pixlr from '../../images/Pixlr.jpg';
+import picsArt from '../../images/picsArt.jpg';
+import illustrator from '../../images/illustrator.png';
+import GravityDesigner from '../../images/GravitDesigner.png';
+import ClipStudioPaint from '../../images/ClipStudioPaint.png';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 // import {Button} from "@material-ui/core";

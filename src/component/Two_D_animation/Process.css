@@ -4,7 +4,7 @@
 .process_container{
    /* background-color: aliceblue;  */
    
-    background-image: url('../images/background1.jpg') ;
+    background-image: url('../../images/background1.jpg') ;
     background-attachment:fixed;
 
   background-repeat:no-repeat;

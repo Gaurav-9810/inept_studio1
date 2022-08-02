@@ -1,12 +1,12 @@
 import React from 'react';
 import {clientsData} from './Clientsdata.js';
-import img1 from '../images/Pixlr.jpg';
+import img1 from '../../images/Pixlr.jpg';
 import  './Clienttest.css' ;
 import LaunchIcon from '@mui/icons-material/Launch';
-import swasth from '../images/slider_img-1.png';
-import urbanRider from '../images/UrbanRider-1.jpg';
-import bhaavnagar from '../images/bhaavnagar.jpg';
-import ClipStudio from '../images/ClipStudioPaint.png';
+import swasth from '../../images/slider_img-1.png';
+import urbanRider from '../../images/UrbanRider-1.jpg';
+import bhaavnagar from '../../images/bhaavnagar.jpg';
+import ClipStudio from '../../images/ClipStudioPaint.png';
 
 
 function Clienttest({item}) {
