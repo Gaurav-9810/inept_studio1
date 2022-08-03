@@ -1,18 +1,16 @@
 
 import './App.css';
-import TwoD_deignbeni from './component/Two_D_animation/TwoD_deignbeni.js';
-import Process from './component/Two_D_animation/Process.js'; 
+
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
-import Techused from './component/Two_D_animation/Techused.js';
-// import TechUsed1 from './component/TechUsed1';
-import Faq from './component/Two_D_animation/Faq.js';
-import Clients from './component/Two_D_animation/Clients.js';
-import Testimonials from './component/Two_D_animation/Testimonials.js';
-import Footer from './component/Two_D_animation/Footer.js';
-import FBanner from './component/Two_D_animation/FBanner.js';
-import Services from './component/Two_D_animation/Services.js';
-import Top_banner from './component/Two_D_animation/Top_banner.js';
-import Three_D from './component/Three-D/Three_D'; 
+import Three from './component/Three-D/Three_D.js'
+// import TwoD from './component/Two_D_animation/'
+import Animation from './component/Animation/Animation.js';
+import WebD from './component/Web_Dev/Web_Dev.js';
+import UI from './component/UI_Desg/UI_Desg.js';
+import App_Dev from './component/App_Dev/App_Dev.js';
+import Two from './component/Two_D_animation/Two';
+
+
 
 
 
@@ -20,18 +18,22 @@ import Three_D from './component/Three-D/Three_D';
 function App() {
   return (
     < >
-    {/* <BrowserRouter>
+    <BrowserRouter>
       <Routes>
-          <Route path='/' element={[ <div className='app-container'><Top_banner />
-      <TwoD_deignbeni /><Services/><Process/><Techused/><Testimonials/><Clients/><Faq/><FBanner/><Footer/>
-      
-    </div>]
-  
-  }/>
-      </Routes>
-    </BrowserRouter> */}
+          <Route path='/ThreeD' element={[<Three/>] }/>
+          <Route path='/TwoD' element={[<Two/>]}></Route>
+          <Route path='/Animation' element={[<Animation/>]}></Route>
+          <Route path='/WebD' element={[<WebD/>]}></Route>
+          <Route path='/App' element={[<App_Dev/>]}></Route>
+          <Route path='/UI' element={[<UI/>]}></Route>
+          
 
-    <Three_D/>
+
+
+      </Routes>
+    </BrowserRouter>
+
+    
    
      {/* <Top_banner/> */}
      

@@ -23,7 +23,9 @@ import twitter from '../../images/twitter-icon.png';
 import sitelogo from '../../images/sitelogo.png';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import CloseIcon from '@mui/icons-material/Close';
+
 import '../Two_D_animation/Top_Banner.css';
+
 
 import Modal from '@mui/material/Modal';
 // import Modal from "react-animated-modal";
@@ -69,28 +71,34 @@ function Top_banner() {
     <>
       <section class="header pt-4  mb-10 overflow-hidden">
 		<nav className='hidden md:flex px-3'>
-			<a className='w-1/5 pl-4' href="index.html"><img className='w-3/4 ' src={toplogo}/></a>
+			<a className='w-1/5 pl-4' href="/"><img className='w-3/4 ' src={toplogo}/></a>
 			<div className="w-4/5 flex sm:justify-center  " id="navLinks">
 				 
                 <ul className='flex justify-evenly sm:w-4/5 lg:w-3/5 '>
-			<li className=' hover:text-slate-300 text-white font-semibold sm:text-sm md:text-sm xl:text-lg'><a href="">HOME</a></li>
-                    <li className='hover:text-slate-300 text-white font-semibold sm:text-sm md:text-sm xl:text-lg'><a href="">BLOG</a></li>
-                    <li className='hover:text-slate-300 text-white font-semibold sm:text-sm md:text-sm xl:text-lg'><a href="">
+			<li className=' hover:text-slate-300 text-white font-semibold sm:text-sm md:text-sm xl:text-lg'><a href="/">HOME</a></li>
+                    <li className='hover:text-slate-300 text-white font-semibold sm:text-sm md:text-sm xl:text-lg'><a href="#">BLOG</a></li>
+                    <li className='hover:text-slate-300 text-white font-semibold sm:text-sm md:text-sm xl:text-lg'>
 						<div class="dropdown">
 							<span className='hover:text-slate-300 text-white font-semibold sm:text-sm md:text-sm xl:text-lg'>SERVICES</span>
-							<div class="dropdown-content">
+							<div class="dropdown-content ">
 								<ul class="dropdown-data ">
-									<li className='hover:text-slate-300'><a href="#">WEB DEVELOPMENT</a></li>
+									<li className='hover:text-slate-300'><a href="/WebD">WEB DEVELOPMENT</a></li>
                   
-									<li className='hover:text-slate-300'><a href="#">APP DEVELOPMENT</a></li>
+									<li className='hover:text-slate-300'><a href="App">APP DEVELOPMENT</a></li>
+									<li className='hover:text-slate-300'><a href="/UI">UI/UX DESIGNING</a></li>
+									<li className='hover:text-slate-300'><a href="/TwoD">2D DESIGNING</a></li>
+									<li className='hover:text-slate-300'><a href="/ThreeD">3D DESIGNING</a></li>
+									<li className='hover:text-slate-300'><a href="/Animation">ANIMATION</a></li>
 									<li className='hover:text-slate-300'><a href="#">GAME DEVELOPMENT</a></li>
-									<li className='hover:text-slate-300'><a href="#">GRAPHICS</a></li>
 									<li className='hover:text-slate-300'><a href="#">DIGITAL MARKETING</a></li>
+                  
+                  
+
 							    </ul>
 							</div>
 							
 						</div>
-					</a></li>
+					</li>
 
 					<li className='hover:text-slate-300 text-white font-semibold sm:text-sm md:text-sm xl:text-lg'><a href="">ABOUT US</a></li>
 					<li className='hover:text-slate-300 text-white font-semibold sm:text-sm md:text-sm xl:text-lg'><a href="">CONTACT US</a></li>
@@ -141,29 +149,29 @@ function Top_banner() {
                                                                   <img className='ml-6 w-28' src={sitelogo} ></img>
                                                                   <ul className=' mr-6 pt-6' >
                                                                   <hr className='my-2 border-current'></hr>
-                                                                      <li  style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} className='' ><a href="">HOME</a></li>
+                                                                      <li  style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} className='' ><a href="/">HOME</a></li>
                                                                       <hr className='my-2 border-current'></hr>
-                                                                       <li style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold",position:"relative"}} ><a href="">SERVICES  <label for="touch"><span className='w-4  bg-green-300 rounded-sm absolute right-8 top-px '> <ChevronRightIcon className="text-slate-700 relative right-1"/></span></label></a>
+                                                                       <li style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold",position:"relative"}} >SERVICES <label for="touch"><span className='w-4  bg-green-300 rounded-sm absolute right-8 top-px '> <ChevronRightIcon className="text-slate-700 relative right-1"/></span></label>
                                                                        
                                                                        <input type="checkbox" id="touch"/> 
 
                                                                           <ul class="top_slide">
                                                                              <hr className='my-2 border-current'></hr>
-                                                                             <li  style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} className='' ><a href="">WEB DEVELOPMENT</a></li>
+                                                                             <li  style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} className='' ><a href="/WebD">WEB DEVELOPMENT</a></li>
                                                                              <hr className='my-2 border-current'></hr>
-                                                                             <li  style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} className='' ><a href="">UI/UX DESIGN</a></li>
+                                                                             <li  style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} className='' ><a href="/UI">UI/UX DESIGNING</a></li>
                                                                              <hr className='my-2 border-current'></hr>
-                                                                             <li  style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} className='' ><a href="">2D DESIGN</a></li>
+                                                                             <li  style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} className='' ><a href="/TwoD">2D DESIGNING</a></li>
                                                                              <hr className='my-2 border-current'></hr>
-                                                                             <li  style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} className='' ><a href="">3D DESIGN</a></li>
+                                                                             <li  style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} className='' ><a href="/ThreeD">3D DESIGNING</a></li>
                                                                              <hr className='my-2 border-current'></hr>
-                                                                             <li  style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} className='' ><a href="">ANIMATION</a></li>
+                                                                             <li  style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} className='' ><a href="/Animation">ANIMATION</a></li>
                                                                              <hr className='my-2 border-current'></hr>
-                                                                             <li  style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} className='' ><a href="">GAME</a></li>
+                                                                             <li  style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} className='' ><a href="#">GAME DEVELOPMENT</a></li>
                                                                              <hr className='my-2 border-current'></hr>
-                                                                             <li  style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} className='' ><a href="">APP</a></li>
+                                                                             <li  style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} className='' ><a href="/App">APP DEVELOPMENT</a></li>
                                                                              <hr className='my-2 border-current'></hr>
-                                                                             <li  style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} className='' ><a href="">DIGITAL MARKETING</a></li>
+                                                                             <li  style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} className='' ><a href="#">DIGITAL MARKETING</a></li>
                                                                           </ul>
                                                                        </li>
                                                                        <hr className='my-2 border-current'></hr>
@@ -200,60 +208,7 @@ function Top_banner() {
                       </Modal>   
           	 
 
-      {/* <Box className='flex justify-end relative bottom-3 ' >
-            <IconButton
-              size="large"
-              aria-label="account of current user"
-              aria-controls="menu-appbar"
-              aria-haspopup="true"
-              onClick={handleOpenNavMenu}
-              color="inherit"
-            >
-              <MenuIcon />
-            </IconButton>
-            <Menu
-              id="menu-appbar"
-              anchorEl={anchorElNav}
-              anchorOrigin={{
-                vertical: 'bottom',
-                horizontal: 'left',
-              }}
-              keepMounted
-              transformOrigin={{
-                vertical: 'top',
-                horizontal: 'left',
-              }}
-              open={Boolean(anchorElNav)}
-              onClose={handleCloseNavMenu}
-              sx={{
-                display: { xs: 'block', md: 'none' },
-              }}
-            >
-              <div style={{width:"100vw",height:"100vh",position:"absolute"}}>hello</div>
-            </Menu>
-          </Box> */}
-                {/* <ul className='flex justify-evenly sm:w-4/5 lg:w-3/5 '>
-			<li className='text-white font-semibold sm:text-xs md:text-sm xl:text-lg'><a href="">HOME</a></li>
-                    <li className='text-white font-semibold sm:text-xs md:text-sm xl:text-lg'><a href="">BLOG</a></li>
-                    <li className='text-white font-semibold sm:text-xs md:text-sm xl:text-lg'><a href="">
-						<div class="dropdown">
-							<span className='text-white font-semibold sm:text-xs md:text-sm xl:text-lg'>SERVICES</span>
-							<div class="dropdown-content">
-								<ul class="dropdown-data">
-									<li><a href="#">WEB DEVELOPMENT</a></li>
-									<li><a href="#">APP DEVELOPMENT</a></li>
-									<li><a href="#">GAME DEVELOPMENT</a></li>
-									<li><a href="#">GRAPHICS</a></li>
-									<li><a href="#">DIGITAL MARKETING</a></li>
-							    </ul>
-							</div>
-							
-						</div>
-					</a></li>
-
-					<li className='text-white font-semibold sm:text-xs md:text-sm xl:text-lg'><a href="">ABOUT US</a></li>
-					<li className='text-white font-semibold sm:text-xs md:text-sm xl:text-lg'><a href="">CONTACT US</a></li>
-				</ul> */}
+     
 			</div>		
 		</nav>
 
@@ -262,7 +217,7 @@ function Top_banner() {
 
 
 		<div className='flex justify-center   relative overflow-hidden'>
-			    <h1 class=" text-3xl sm:text-5xl md:text-5xl mt-44 font-semibold text-white z-10 ">WEB  TECNOLOGY</h1>
+			    <h1 class=" text-3xl sm:text-5xl md:text-5xl mt-44 font-semibold text-white z-10 ">WEB  TECHNOLOGY</h1>
 			  <div  className="top_leftanim  " >
 				<img  src={RightwhiteCurve}/>
         
