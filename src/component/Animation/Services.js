@@ -2,14 +2,14 @@ import React,{useState} from 'react';
 import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
-import photoshop from '../images/photoshop.png';
-import Pixlr from '../images/Pixlr.jpg';
-import picsArt from '../images/picsArt.jpg';
-import illustrator from '../images/illustrator.png';
-import GravityDesigner from '../images/GravitDesigner.png';
-import ClipStudioPaint from '../images/ClipStudioPaint.png';
+import photoshop from '../../images/photoshop.png';
+import Pixlr from '../../images/Pixlr.jpg';
+import picsArt from '../../images/picsArt.jpg';
+import illustrator from '../../images/illustrator.png';
+import GravityDesigner from '../../images/GravitDesigner.png';
+import ClipStudioPaint from '../../images/ClipStudioPaint.png';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-import cardimg from '../images/cardimg.webp';
+import cardimg from '../../images/cardimg.webp';
 import Modal from '@mui/material/Modal';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
@@ -17,14 +17,14 @@ import Alert from '@mui/material/Alert';
 import { Box } from '@mui/material';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import CloseIcon from '@mui/icons-material/Close';
-import logo_service from '../images/logo-service.png';
-import cartoon from '../images/cartoon.webp';
+import logo_service from '../../images/logo-service.png';
+import cartoon from '../../images/cartoon.webp';
 
 
 
 // import {Button} from "@material-ui/core";
 import PhotoLibraryIcon from '@mui/icons-material/PhotoLibrary';
-import '../';
+import '../Two_D_animation/Services.css';
 
 const style = {
   position: 'absolute',
