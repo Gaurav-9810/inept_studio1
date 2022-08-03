@@ -12,13 +12,15 @@ import Footer from './component/Two_D_animation/Footer.js';
 import FBanner from './component/Two_D_animation/FBanner.js';
 import Services from './component/Two_D_animation/Services.js';
 import Top_banner from './component/Two_D_animation/Top_banner.js';
+import Three_D from './component/Three-D/Three_D'; 
+
 
 
 
 function App() {
   return (
     < >
-    <BrowserRouter>
+    {/* <BrowserRouter>
       <Routes>
           <Route path='/' element={[ <div className='app-container'><Top_banner />
       <TwoD_deignbeni /><Services/><Process/><Techused/><Testimonials/><Clients/><Faq/><FBanner/><Footer/>
@@ -27,7 +29,9 @@ function App() {
   
   }/>
       </Routes>
-    </BrowserRouter>
+    </BrowserRouter> */}
+
+    <Three_D/>
    
      {/* <Top_banner/> */}
      
