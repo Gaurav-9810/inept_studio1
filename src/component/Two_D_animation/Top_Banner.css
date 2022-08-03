@@ -9,7 +9,7 @@
  .header{
 	min-height: 70vh;
 	width: 100%;
-	background-image:linear-gradient(rgba(23, 56, 187, 0.704),rgb(53 69 136 / 39%)),url(../../images/banner.jpg);
+	background-image:linear-gradient(rgba(31, 31, 32, 0.633),rgba(0, 39, 193, 0.184)),url(../../images/banner.jpg);
 	background-position: center;
 	background-size: cover;
 	position: relative;
@@ -69,17 +69,18 @@ nav img{
 	top: 34px;
     display: none;
     position: absolute;
-    background-color: #1e1b1b87;
+    background-color: rgba(59, 56, 56, 0.892);
     min-width: 226px;
-    box-shadow: 0px 8px 16px 0px rgba(219, 179, 46, 0.788);
+    box-shadow: 0px 8px 16px 0px rgba(122, 131, 227, 0.296);
     padding: 12px 16px;
-    z-index: 1;
+    
     font-size: 15px;
     line-height: 31px;
+    z-index: 100;
   }
   
   .dropdown-data {
-	color: #fff;
+	color: rgb(229, 220, 220);
 	font-weight: 500;
   }
 
