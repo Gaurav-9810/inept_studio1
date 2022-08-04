@@ -2,12 +2,12 @@ import * as React from 'react';
 import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
-import photoshop from '../../images/photoshop.png';
-import Pixlr from '../../images/Pixlr.jpg';
-import picsArt from '../../images/picsArt.jpg';
-import illustrator from '../../images/illustrator.png';
-import GravityDesigner from '../../images/GravitDesigner.png';
-import ClipStudioPaint from '../../images/ClipStudioPaint.png';
+import photoshop from '../../images/html_pic.webp';
+import Pixlr from '../../images/library_pic.png';
+import picsArt from '../../images/java_pic.png';
+import illustrator from '../../images/css_pic.webp';
+import GravityDesigner from '../../images/database_pic';
+import ClipStudioPaint from '../../images/framework_pic.png';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 // import {Button} from "@material-ui/core";
@@ -42,7 +42,7 @@ function Techused() {
          <hr className='hr'></hr>
         </span>
        
-       <p className='text-center mb-9 mt-7 text-lg'>Designers are meant to be loved, not to be understood. Design adds value faster than it adds costs.</p>
+       <p className='text-center mb-9 mt-7 text-lg'>Websites promote you 24/7: No employee will do that.</p>
        </AnimationOnScroll>
        
         <Grid  container rowSpacing={6} columnSpacing={{ xs: 1, sm: 2, md: 5 }}>
@@ -51,11 +51,11 @@ function Techused() {
         <AnimationOnScroll  animateOnce={true}  animateIn="animated animatedFadeInUp fadeInUp">
           <div  className="flex-col items-center text-center px-6 py-6 rounded-lg hover:bg-blue-100 tech-item " onMouseEnter={(e)=>handleenter("a",'1')} onMouseLeave={(e)=>handleleave("a",'1')} style={{boxShadow: 'rgba(0, 0, 0, 0.05) 0px 0px 0px 1px'}}>
             <div className='flex justify-center'>
-              <img id='1'  src={photoshop} className=' w-16 img-icon '></img>
+              <img id='1'  src={photoshop} className='rounded-full w-16 img-icon '></img>
             </div>
             
-              <h2 className='text-lg font-bold font-mono text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Adobe Photoshop</h2>
-              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>Photoshop is an extremely powerful program for creating prints and patterns to be the best they can be in the designing world. It has tools, and settings to open up new opportunities, to create design.</p>
+              <h2 className='text-lg font-bold font-mono text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>HTML</h2>
+              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>HTML provides the base structure for a web page. HTML code ensures that all the content on a website is properly formatted. Without HTML, a browser couldn’t display text or load images and other elements.</p>
               
                <span id="a" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
           </div>
@@ -65,11 +65,11 @@ function Techused() {
         <AnimationOnScroll  animateOnce={true}  animateIn="animated animatedFadeInUp fadeInUp">
         <div  className="flex-col items-center text-center px-6 py-6 rounded-lg hover:bg-blue-100 tech-item" onMouseEnter={()=>handleenter("b",'2')} onMouseLeave={()=>handleleave("b",'2')} style={{boxShadow: 'rgba(0, 0, 0, 0.05) 0px 0px 0px 1px'}}>
             <div className='flex justify-center'>
-              <img id='2' src={illustrator} className=' w-16'></img>
+              <img id='2' src={illustrator} className='rounded-full img-icon w-16'></img>
             </div>
             
-              <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Adobe Illustrator</h2>
-              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>It offers 2D or 3D graphics manipulation to increase efficiency in the design workflow. Designers including both professional graphic designers and digital artists  to create digital products</p>
+              <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>CSS</h2>
+              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>CSS define the style and aesthetics of a web page. IT specifies the appearance of that structure. This includes page layouts, colours, fonts and element positioning. It makes your website,look good.</p>
               
                <span id="b" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
           </div>
@@ -79,11 +79,11 @@ function Techused() {
         <AnimationOnScroll  animateOnce={true}  animateIn="animated animatedFadeInUp fadeInUp">
         <div  className="flex-col items-center text-center px-6 py-6 rounded-lg hover:bg-blue-100 tech-item" onMouseEnter={()=>handleenter("c",'3')} onMouseLeave={()=>handleleave("c",'3')} style={{boxShadow: 'rgba(0, 0, 0, 0.05) 0px 0px 0px 1px'}}>
             <div className='flex justify-center'>
-              <img id='3' src={picsArt} className='rounded-full w-16'></img>
+              <img id='3' src={picsArt} className=' w-16 rounded-full scale-y-125 scale-x-125 '></img>
             </div>
             
-              <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>PicsArt</h2>
-              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>PicsArt’s has Photo Editor features endless editing tools to help you create professional-grade content. They even house an impressive Video Editor you can use to add music and effects to videos.</p>
+              <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Programming languages</h2>
+              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>JavaScript, PHP, Phython, java, Rust are the programming langauges are used in website development. They provide a set of grammatical rules to instruct a computer to perform specific functions.</p>
               
                <span id="c" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
           </div>
@@ -96,8 +96,8 @@ function Techused() {
               <img id='4' src={ClipStudioPaint} className='rounded-full w-16'></img>
             </div>
             
-              <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Clip Studio Paint</h2>
-              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>Digital artists dig Clip Studio Paint’s simple collection of illustration apps because of its simplicity, mirror feature and affordability.</p>
+              <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Web Development Frameworks</h2>
+              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>Angular and Node.js are the frameworks used in website development. There are both front-end and back-end frameworks that streamline the development process</p>
               
                <span id="d" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
           </div>
@@ -110,8 +110,8 @@ function Techused() {
               <img id='5' src={Pixlr} className='rounded-full w-16'></img>
             </div>
             
-              <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Pixlr</h2>
-              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>A great free graphic design software with Basic Pixlr X and Advanced Pixlr E options. You can use the extensive image stock to create image media quickly.</p>
+              <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Libraries</h2>
+              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>React.js, Vue.js and FacebookSDK are the libraries used in web development process. Libraries are collections of files, programs, routines, scripts or functions that can be integrated when writing code</p>
               
                <span id="e" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
           </div>
@@ -120,12 +120,12 @@ function Techused() {
         <Grid item xs={12} sm={6} md={4}  >
         <AnimationOnScroll  animateOnce={true}  animateIn="animated animatedFadeInUp fadeInUp">
         <div  className="flex-col items-center text-center px-6 py-6 rounded-lg hover:bg-blue-100 tech-item " onMouseEnter={()=>handleenter("f",'6')} onMouseLeave={()=>handleleave("f",'6')} style={{boxShadow: 'rgba(0, 0, 0, 0.05) 0px 0px 0px 1px'}}>
-            <div  className='flex justify-center'>
-              <img id='6'  src={GravityDesigner} className=' w-16'></img>
+            <div  className='flex justify-center mt-4 '>
+              <img id='6'  src={GravityDesigner} className='  w-16 scale-y-150 scale-x-150  '></img>
             </div>
             
-              <h2  className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Gravit Designer</h2>
-              <p  className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>It is HTML-based graphic design software that can be used on any platform. It has a powerful image and vector graphic creation and manipulation capabilities.</p>
+              <h2  className='text-lg font-bold font-serif text-black mt-6 mb-1 ' style={{fontFamily:'Raleway, sans-serif'}}>Databases </h2>
+              <p  className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>SQL and NoSQL are databases used in define and store data . That information is gathered in one place so that it can be observed and analyzed. Databases can be thought of as an organized collection of information.</p>
               
                <span id="f" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
           </div>

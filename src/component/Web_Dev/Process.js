@@ -27,8 +27,8 @@ function Process() {
     <div className='process_container pt-4  '>
 
     
-  <h1 className='text-4xl text-center font-bold my-4  bg-transparent text-white'>2D Designing Process</h1>
-  <p className='text-center   mx-4 sm:mx-48 lg:mx-56 xl:mx-96 xl:px-11 bg-transparent text-white '>There are 3 responses to a piece of design- yes, no, and Wow!  Wow is the one we aim for.</p>
+  <h1 className='text-4xl text-center font-bold my-4  bg-transparent text-white'>Website Development Process</h1>
+  <p className='text-center   mx-4 sm:mx-48 lg:mx-56 xl:mx-96 xl:px-11 bg-transparent text-white '>If your website is not setup for success or you'are not online , you're not in business.</p>
    
 <Grid className="process-grid"  container rowSpacing={5} columnSpacing={{ xs: 1, sm: 2, md: 4 }} >
   <Grid item xs={12} sm={6} md={4}  className="grid h-60 sm:h-64 px-3      ">
@@ -43,8 +43,8 @@ function Process() {
           
       </div>
         <div className='w-2/3  '>
-            <h2 className='text-xl pt-4  mb-2 font-semibold text-white  text-left hover:text-pink 2xl:text-lg '>Creative Breaf</h2>
-            <p className='text-left text-white  text-xs lg:text-sm 2xl:text-xs'>Creative Brief will capture all of your client’s wants and needs and other key project specifications. </p>
+            <h2 className='text-xl pt-4  mb-2 font-semibold text-white  text-left hover:text-pink 2xl:text-lg '>Gathering Information</h2>
+            <p className='text-left text-white  text-xs lg:text-sm '>The most important task at this point is to get a clear understanding of your future website purposes, the main goals you wish to get, and the target audience you want to attract to your site.</p>
         </div>
       </div>
       
@@ -65,9 +65,9 @@ function Process() {
           </div>
           
       </div>
-        <div className='w-2/3 bg-transparent'>
-            <h2 className='text-xl  pt-4   mb-2 font-semibold text-white bg-transparent text-left 2xl:text-lg '>Research the Design</h2>
-            <p className='text-left  bg-transparent text-white text-xs lg:text-sm 2xl:xs'>We will use your findings to inspire original ideas, solidify the overall design approach with other stakeholders and back up the design decisions you make later on. </p>
+        <div className='w-2/3 '>
+            <h2 className='text-xl  pt-4   mb-2 font-semibold text-white bg-transparent text-left 2xl:text-lg '>Planning</h2>
+            <p className='text-left   text-white text-xs lg:text-sm '>At this stage of the website development cycle, the developer creates the data that allows a customer to judge how the entire site will look like.</p>
         </div>
       </div>
       
@@ -88,8 +88,8 @@ function Process() {
           
       </div>
         <div className='w-2/3 bg-transparent  '>
-            <h2 className='text-xl   pt-4  mb-2 font-semibold text-white bg-transparent text-left 2xl:lg '>Develop and refine </h2>
-            <p className='text-left  bg-transparent text-white text-xs lg:text-sm 2xl:xs'>The development and refinement stage may involve sketching out thumbnails, mockups or graphic elements, like logo development and web design.</p>
+            <h2 className='text-xl   pt-4  mb-2 font-semibold text-white bg-transparent text-left 2xl:lg '>Develop</h2>
+            <p className='text-left  bg-transparent text-white text-xs lg:text-sm '>During the design phase, your website takes shape. All the visual content, such as images, photos, and videos is created at this step. Once again, all the info that was gathered through the first phase is crucial.</p>
         </div>
       </div>
       
@@ -110,8 +110,8 @@ function Process() {
           
       </div>
         <div className='w-2/3 bg-transparent '>
-            <h2 className='text-xl  pt-4   mb-2  font-semibold text-white bg-transparent text-left 2xl:text-lg'>Create the design</h2>
-            <p className='text-left text-xs lg:text-sm text-white bg-transparent 2xl:text-xs'>During the design stage, a graphic designer will be expected to implement best practices related to the use of color, typography, the hierarchy of information and space.</p>
+            <h2 className='text-xl  pt-4   mb-2  font-semibold text-white bg-transparent text-left 2xl:text-lg'>Coding</h2>
+            <p className='text-left text-xs lg:text-sm text-white bg-transparent '>At this step, developers finally start creating the website itself. Graphic elements that have been designed during the previous stages should be used to create an actual website.</p>
         </div>
       </div>
       
@@ -132,8 +132,8 @@ function Process() {
           
       </div>
         <div className='w-2/3 bg-transparent'>
-            <h2 className='text-xl  pt-4   mb-2 font-semibold text-white bg-transparent text-left 2xl:lg'>Implement feedback</h2>
-            <p className='text-left  text-xs lg:text-sm text-white bg-transparent 2xl:xs'>The feedback stage involves a series of smaller steps that ensure quality control and perfect alignment with stakeholders’ vision.</p>
+            <h2 className='text-xl  pt-4   mb-2 font-semibold text-white bg-transparent text-left 2xl:lg'>Testing, Review, and Launch</h2>
+            <p className='text-left  text-xs lg:text-sm text-white bg-transparent '>Every single link should be tested to make sure that there are no broken ones among them. After checking and testing the website, it’s time to upload it to a server. </p>
         </div>
       </div>
       
@@ -154,8 +154,8 @@ function Process() {
           
       </div>
         <div className='w-2/3 bg-transparent'>
-            <h2 className='text-xl  pt-4  mb-2  font-semibold text-white bg-transparent text-left 2xl:lg'>Deliver the design </h2>
-            <p className='text-left  text-xs lg:text-sm bg-transparent text-white 2xl:xs'>You’ve gotten final approval from all stakeholders, you’re ready to deliver the assets in the appropriate formats.</p>
+            <h2 className='text-xl  pt-4  mb-2  font-semibold text-white bg-transparent text-left 2xl:lg'>Maintenance and Support</h2>
+            <p className='text-left  text-xs lg:text-sm bg-transparent text-white'>What’s important to remember is that a website is more of a service than a product. To avoid further inconvenience, we provide maintenance and support services.</p>
         </div>
       </div>
       
