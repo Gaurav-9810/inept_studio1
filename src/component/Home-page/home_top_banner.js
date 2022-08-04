@@ -23,9 +23,10 @@ import twitter from '../../images/twitter-icon.png';
 import sitelogo from '../../images/sitelogo.png';
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import CloseIcon from '@mui/icons-material/Close';
+import imgspring from '../../images/left-curve-line.png'
 
-import '../Two_D_animation/Top_Banner.css';
-
+// import '../Two_D_animation/Top_Banner.css';
+import './home_top_banner.css';
 
 import Modal from '@mui/material/Modal';
 // import Modal from "react-animated-modal";
@@ -53,7 +54,7 @@ const pages = ['HOME','BLOG','SERVICES','ABOUT US' ,'CONTACT US' ];
   };
 
 
-function Top_banner() {
+function Top_top_banner() {
   const [open, setOpen] = useState(0);
 
   const handleOpen = (id) =>{
@@ -69,7 +70,7 @@ function Top_banner() {
 
   return (
     <>
-      <section class="header pt-8  mb-10 overflow-hidden">
+      <section class="home_header pt-8  mb-10 overflow-hidden">
 		<nav className='hidden md:flex px-3'>
 			<a className='w-1/5 pl-4' href="/"><img className='w-3/4 ' src={toplogo}/></a>
 			<div className="w-4/5 flex sm:justify-center  " id="navLinks">
@@ -79,7 +80,7 @@ function Top_banner() {
                     <li className='hover:text-slate-300 text-white font-semibold sm:text-sm md:text-sm xl:text-lg'><a href="#">BLOG</a></li>
                     <li className='hover:text-slate-300 text-white font-semibold sm:text-sm md:text-sm xl:text-lg'>
 						<div class="dropdown">
-							<span className='hover:text-slate-300 text-white font-semibold sm:text-sm md:text-sm xl:text-lg'>SERVICES</span>
+							<span className='hover:text-slate-300 text-white font-semibold sm:text-sm md:text-sm xl:text-lg cursor-pointer'>SERVICES</span>
 							<div class="dropdown-content ">
 								<ul class="dropdown-data ">
 									<li className='hover:text-slate-300'><a href="/WebD">WEB DEVELOPMENT</a></li>
@@ -216,15 +217,25 @@ function Top_banner() {
 
 
 
-		<div className='flex justify-center   relative overflow-hidden'>
-			    <h1 class=" text-3xl sm:text-5xl md:text-5xl mt-44 font-semibold text-white z-10 ">WEB  TECHNOLOGY</h1>
+		<div className=' flex   relative   sm:justify-start sm:ml-7 lg:ml-10'>
+			    {/* <h1 class=" text-3xl sm:text-5xl md:text-5xl mt-44 font-semibold text-white z-10 ">WEB  TECHNOLOGY</h1> */}
+         
+          <div className='content  mt-44 sm:mt-20 md:w-1/2 md:mt-32 flex flex-col   lg:mt-28 ml-4  '>
+				     <img className=" hidden md:block  leftanim3 " src={imgspring}/>
+
+            <h1 className="z-10 hidden sm:block anim text-5xl  lg:text-6xl inline-block  lg:w-10/12  w-4/5 h-auto ">COMBINE<br/> TECHNOLOGY<br/> WITH YOUR<br/> BUSSINESS</h1>
+			    <a href="#" class=" hidden sm:block btn text-xl   anim text-sm py-2 px-4 w-72 md:w-72 ">GET MY FREE PROPOSAL</a>
+          <h1 className="sm:hidden  anim text-4xl  inline-block w-52">COMBINE TECHNOLOGY WITH YOUR BUSSINESS</h1>
+			    <a href="#" class="sm:hidden  btn anim text-lg py-2 px-1 w-60 z-10 ">GET MY FREE PROPOSAL</a>
+          </div>
+          
 			  <div  className="top_leftanim  " >
 				<img  src={RightwhiteCurve}/>
         
 			  </div>
         
 		</div>
-    	<div class="top_leftanim2 ">
+    	<div class="top_leftanim2 "> 
 			  <img className='top_left_img' src={Rightimg}/>
 
         </div>
@@ -233,4 +244,4 @@ function Top_banner() {
   )
 }
 
-export default Top_banner
+export default Top_top_banner
