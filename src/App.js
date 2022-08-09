@@ -9,7 +9,7 @@ import WebD from './component/Web_Dev/Web_Dev.js';
 import UI from './component/UI_Desg/UI_Desg.js';
 import App_Dev from './component/App_Dev/App_Dev.js';
 import Two from './component/Two_D_animation/Two';
-import Home from './component/Home-page/home_top_banner.js';
+import Home from './component/Home-page/Home.js';
 
 
 
