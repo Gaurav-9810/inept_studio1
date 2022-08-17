@@ -5,7 +5,7 @@ import Paper from '@mui/material/Paper';
 import photoshop from '../../images/photoshop.png';
 import Pixlr from '../../images/Pixlr.jpg';
 import picsArt from '../../images/picsArt.jpg';
-import illustrator from '../../images/illustrator.png';
+import Figma from '../../images/figma.png';
 import GravityDesigner from '../../images/GravitDesigner.png';
 import ClipStudioPaint from '../../images/ClipStudioPaint.png';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
@@ -42,7 +42,7 @@ function Techused() {
          <hr className='hr'></hr>
         </span>
        
-       <p className='text-center mb-9 mt-7 text-lg'>Designers are meant to be loved, not to be understood. Design adds value faster than it adds costs.</p>
+       <p className='text-center mb-9 mt-7 text-lg'>Design creates culture. Culture shapes values. Values determine the future</p>
        </AnimationOnScroll>
        
         <Grid  container rowSpacing={6} columnSpacing={{ xs: 1, sm: 2, md: 5 }}>
@@ -54,10 +54,10 @@ function Techused() {
               <img id='1'  src={photoshop} className=' w-16 img-icon '></img>
             </div>
             
-              <h2 className='text-lg font-bold font-mono text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Adobe Photoshop</h2>
-              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>Photoshop is an extremely powerful program for creating prints and patterns to be the best they can be in the designing world. It has tools, and settings to open up new opportunities, to create design.</p>
+              <h2 className='text-lg font-bold font-mono text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Adobe XD</h2>
+              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>Adobe XD helps UX/UI design and development teams at the same time by giving access to a wide range of prototyping tools. Adobe XD is easy to set up and use, but also provides complex and detail-rich design tools.</p>
               
-               <span id="a" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+              <a href='https://www.adobe.com/in/products/xd.html'><span id="a" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -65,13 +65,13 @@ function Techused() {
         <AnimationOnScroll  animateOnce={true}  animateIn="animated animatedFadeInUp fadeInUp">
         <div  className="flex-col items-center text-center px-6 py-6 rounded-lg hover:bg-blue-100 tech-item" onMouseEnter={()=>handleenter("b",'2')} onMouseLeave={()=>handleleave("b",'2')} style={{boxShadow: 'rgba(0, 0, 0, 0.05) 0px 0px 0px 1px'}}>
             <div className='flex justify-center'>
-              <img id='2' src={illustrator} className=' w-16'></img>
+              <img id='2' src={Figma} className='rounded-full w-16'></img>
             </div>
             
-              <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Adobe Illustrator</h2>
-              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>It offers 2D or 3D graphics manipulation to increase efficiency in the design workflow. Designers including both professional graphic designers and digital artists  to create digital products</p>
-              
-               <span id="b" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+              <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Figma</h2>
+              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>Figma has the ability to co-edit live with your colleagues. Besides that, the tool has a nice interface that allows the insertion of elements, animations, and code in order to create high-fidelity prototypes.</p>
+             
+              <a href=' https://www.figma.com/'><span id="b" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -82,10 +82,10 @@ function Techused() {
               <img id='3' src={picsArt} className='rounded-full w-16'></img>
             </div>
             
-              <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>PicsArt</h2>
-              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>PicsArt’s has Photo Editor features endless editing tools to help you create professional-grade content. They even house an impressive Video Editor you can use to add music and effects to videos.</p>
+              <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>UXCam App Analytics</h2>
+              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>UXCam is analytics solution for mobile apps that allows you to get a deep understanding of user behavior. UXCam Session Recording capabilities allow to easily see how real users navigate through your app.</p>
               
-               <span id="c" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+              <a href='https://uxcam.com/'><span id="c" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -96,10 +96,10 @@ function Techused() {
               <img id='4' src={ClipStudioPaint} className='rounded-full w-16'></img>
             </div>
             
-              <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Clip Studio Paint</h2>
-              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>Digital artists dig Clip Studio Paint’s simple collection of illustration apps because of its simplicity, mirror feature and affordability.</p>
+              <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Framer</h2>
+              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>Framer helps your team collaborate and focus on coding and design. Some new users complain about the interface and limitations of the program, but it provides all the flexibility and speed that is needed for designing prototypes.</p>
               
-               <span id="d" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+              <a href='https://www.framer.com/'><span id="d" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -110,10 +110,10 @@ function Techused() {
               <img id='5' src={Pixlr} className='rounded-full w-16'></img>
             </div>
             
-              <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Pixlr</h2>
-              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>A great free graphic design software with Basic Pixlr X and Advanced Pixlr E options. You can use the extensive image stock to create image media quickly.</p>
+              <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>MockFlow</h2>
+              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>MockFlow offers an offline mode, which makes it accessible even when your team doesn’t have access to the cloud. Its strength is in creating wireframe designs that come with templates to help speed up the creative process.Helps tp collaborate at ease with everyone on the project through DesignSpaces</p>
               
-               <span id="e" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+               <a href='https://www.mockflow.com/'><span id="e" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -124,10 +124,10 @@ function Techused() {
               <img id='6'  src={GravityDesigner} className=' w-16'></img>
             </div>
             
-              <h2  className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Gravit Designer</h2>
-              <p  className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>It is HTML-based graphic design software that can be used on any platform. It has a powerful image and vector graphic creation and manipulation capabilities.</p>
+              <h2  className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Flinto</h2>
+              <p  className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>Flinto allows to infuse life into your prototype by helping you add animations.It helps to create more convincing, engaging experiences.The animation process does take time, and there are some limitations when trying to create interactions between components in your prototype.</p>
               
-               <span id="f" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+              <a href='https://www.flinto.com/'><span id="f" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>

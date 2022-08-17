@@ -27,8 +27,8 @@ function Process() {
     <div className='process_container pt-4  '>
 
     
-  <h1 className='text-4xl text-center font-bold my-4  bg-transparent text-white'>2D Designing Process</h1>
-  <p className='text-center   mx-4 sm:mx-48 lg:mx-56 xl:mx-96 xl:px-11 bg-transparent text-white '>There are 3 responses to a piece of design- yes, no, and Wow!  Wow is the one we aim for.</p>
+  <h1 className='text-4xl text-center font-bold my-4  bg-transparent text-white'>App Development Process</h1>
+  <p className='text-center   mx-4 sm:mx-48 lg:mx-56 xl:mx-96 xl:px-11 bg-transparent text-white '>Your mobile device has quickly become the easiest portal into your digital self.</p>
    
 <Grid className="process-grid"  container rowSpacing={5} columnSpacing={{ xs: 1, sm: 2, md: 4 }} >
   <Grid item xs={12} sm={6} md={4}  className="grid h-60 sm:h-64 px-3      ">

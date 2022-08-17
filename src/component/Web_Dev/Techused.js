@@ -57,7 +57,7 @@ function Techused() {
               <h2 className='text-lg font-bold font-mono text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>HTML</h2>
               <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>HTML provides the base structure for a web page. HTML code ensures that all the content on a website is properly formatted. Without HTML, a browser couldn’t display text or load images and other elements.</p>
               
-               <span id="a" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+               <a href = 'https://html.com/'><span id="a" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -71,7 +71,7 @@ function Techused() {
               <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>CSS</h2>
               <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>CSS define the style and aesthetics of a web page. IT specifies the appearance of that structure. This includes page layouts, colours, fonts and element positioning. It makes your website,look good.</p>
               
-               <span id="b" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+              <a href = 'https://www.w3schools.com/css/'><span id="b" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -85,7 +85,7 @@ function Techused() {
               <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Programming languages</h2>
               <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>JavaScript, PHP, Phython, java, Rust are the programming langauges are used in website development. They provide a set of grammatical rules to instruct a computer to perform specific functions.</p>
               
-               <span id="c" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+              <a href = 'https://www.mooc.org/blog/best-programming-languages-for-web-development'><span id="c" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a> 
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -99,7 +99,7 @@ function Techused() {
               <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Web Development Frameworks</h2>
               <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>Angular and Node.js are the frameworks used in website development. There are both front-end and back-end frameworks that streamline the development process</p>
               
-               <span id="d" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+              <a href = 'https://hackr.io/blog/web-development-frameworks'><span id="d" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -113,7 +113,7 @@ function Techused() {
               <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Libraries</h2>
               <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>React.js, Vue.js and FacebookSDK are the libraries used in web development process. Libraries are collections of files, programs, routines, scripts or functions that can be integrated when writing code</p>
               
-               <span id="e" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+              <a href = 'https://dev.to/ubahthebuilder/21-popular-javascript-libraries-every-web-developer-should-know-5746'><span id="e" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -127,7 +127,7 @@ function Techused() {
               <h2  className='text-lg font-bold font-serif text-black mt-6 mb-1 ' style={{fontFamily:'Raleway, sans-serif'}}>Databases </h2>
               <p  className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>SQL and NoSQL are databases used in define and store data . That information is gathered in one place so that it can be observed and analyzed. Databases can be thought of as an organized collection of information.</p>
               
-               <span id="f" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+               <a href = 'https://www.geeksforgeeks.org/top-7-database-you-must-know-for-software-development-projects/'><span id="f" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>

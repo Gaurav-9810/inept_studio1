@@ -1,12 +1,12 @@
 import React from 'react';
-import image1 from '../../images/slider_img-1.png';
+import image1 from '../../images/web_dev.jpg';
 
 
 
 function TwoD_deignbeni() {
   return (
-    <div className='mt-3 mx-4 sm:flex  sm:mx-10  pb-6 lg:mb-8 xl:mb-20'>
-      <div className=' sm:w-1/2  xl:mx-auto    '>
+    <div className='mt-3 mx-4 md:flex  md:mx-10  pb-6 lg:mb-8 xl:mb-20'>
+      <div className=' md:w-1/2  xl:mx-auto    '>
           <h1 className='font-semibold text-4xl sm:text-5xl mb-6'>How Website Help Your Business</h1>
         <ol className='text-lg lg:text-2xl sm:text-xl font-normal '>
           <li className='leading-10'> 1 - Your website can attract new customers through google.</li>
@@ -18,8 +18,8 @@ function TwoD_deignbeni() {
 
         </ol>      
       </div>
-      <div className='w-11/12 h-72    sm:my-auto sm:w-1/2  sm:pl-7  lg:flex lg:justify-end ' >
-          <img className='sm:h-72 h-60 m-auto lg:h-96 ' src={image1}></img>
+      <div className='w-11/12 h-96    sm:my-auto md:w-1/2  flex justify-center  lg:flex  ' >
+          <img className='h-96   lg:h-96  ' src={image1}></img>
       </div>
 
     </div>
