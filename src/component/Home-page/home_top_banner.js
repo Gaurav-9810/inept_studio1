@@ -90,8 +90,8 @@ function Top_top_banner() {
 									<li className='hover:text-slate-300'><a href="/TwoD">2D DESIGNING</a></li>
 									<li className='hover:text-slate-300'><a href="/ThreeD">3D DESIGNING</a></li>
 									<li className='hover:text-slate-300'><a href="/Animation">ANIMATION</a></li>
-									<li className='hover:text-slate-300'><a href="#">GAME DEVELOPMENT</a></li>
-									<li className='hover:text-slate-300'><a href="#">DIGITAL MARKETING</a></li>
+									<li className='hover:text-slate-300'><a href="/Game">GAME DEVELOPMENT</a></li>
+									<li className='hover:text-slate-300'><a href="/Digital">DIGITAL MARKETING</a></li>
                   
                   
 
@@ -168,7 +168,7 @@ function Top_top_banner() {
                                                                              <hr className='my-2 border-current'></hr>
                                                                              <li  style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} className='' ><a href="/Animation">ANIMATION</a></li>
                                                                              <hr className='my-2 border-current'></hr>
-                                                                             <li  style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} className='' ><a href="#">GAME DEVELOPMENT</a></li>
+                                                                             <li  style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} className='' ><a href="/Game">GAME DEVELOPMENT</a></li>
                                                                              <hr className='my-2 border-current'></hr>
                                                                              <li  style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} className='' ><a href="/App">APP DEVELOPMENT</a></li>
                                                                              <hr className='my-2 border-current'></hr>
