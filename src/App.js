@@ -10,6 +10,8 @@ import UI from './component/UI_Desg/UI_Desg.js';
 import App_Dev from './component/App_Dev/App_Dev.js';
 import Two from './component/Two_D_animation/Two';
 import Home from './component/Home-page/home_top_banner.js';
+import Game from './component/game-dev/Game_dev.js';
+import Digital from './component/digital/Digital';
 
 
 
@@ -27,6 +29,10 @@ function App() {
           <Route path='/WebD' element={[<WebD/>]}></Route>
           <Route path='/App' element={[<App_Dev/>]}></Route>
           <Route path='/UI' element={[<UI/>]}></Route>
+          <Route path='/Game' element={[<Game/>]}></Route>
+          <Route path='/Digital' element={[<Digital/>]}></Route>
+
+
           <Route path='/' element={[<Home/>]}></Route>
           
 
