@@ -3,7 +3,7 @@ import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
 import photoshop from '../../images/adobe-animate.webp';
-import Pixlr from '../../images/Blender.png';
+import Pixlr from '../../images/blender.png';
 import picsArt from '../../images/picsArt.jpg';
 import illustrator from '../../images/Maya.png';
 import GravityDesigner from '../../images/GravitDesigner.png';

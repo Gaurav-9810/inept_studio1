@@ -7,7 +7,7 @@ import Pixlr from '../../images/substance_pianter.jpg';
 import picsArt from '../../images/3ds.png';
 import illustrator from '../../images/Maya.png';
 import GravityDesigner from '../../images/zbrush.jpg';
-import ClipStudioPaint from '../../images/Blender.png';
+import ClipStudioPaint from '../../images/blender.png';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 // import {Button} from "@material-ui/core";
