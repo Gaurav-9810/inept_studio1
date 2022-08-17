@@ -7,12 +7,12 @@ function TwoD_deignbeni() {
   return (
     <div className='mt-3 mx-4 sm:flex  sm:mx-10  pb-6 lg:mb-8 xl:mb-20'>
       <div className=' sm:w-1/2  xl:mx-auto    '>
-          <h1 className='font-semibold text-4xl sm:text-5xl mb-6'>How 2D Design help your bussiness</h1>
+          <h1 className='font-semibold text-4xl sm:text-5xl mb-6'>How Animation help your bussiness</h1>
         <ol className='text-lg lg:text-2xl sm:text-xl font-normal '>
-          <li className='leading-10'> 1 - Graphic design helps in creating a powerful impression of your brand on social media.</li>
+          <li className='leading-10'> 1 - Animation helps in creating a powerful impression of your brand on social media.</li>
           <li className='leading-10'>2 - It builds a unique identity for your Brand. Company logos, website logos are all important to make your brand stand out from the rest.</li>
           <li className='leading-10'>3 - It indicates professionalism.</li>
-          <li className='leading-10'>4 - Graphic design builds the credibility of your brand.</li>
+          <li className='leading-10'>4 - animation builds the credibility of your brand.</li>
           <li className='leading-10'>5 - It helps in the communication of the ideas of your brand efficiently.</li>
 
         </ol>      

@@ -4,10 +4,12 @@ import img1 from '../../images/Project completed.jpg';
 import img2 from '../../images/actice clients.webp';
 import img3 from '../../images/cup of coffee.webp';
 import img4 from '../../images/Happy clients.jpg';
-import url from './home_service_scrpit.js';
-import './home_service_scrpit.js';
+import { AnimationOnScroll } from 'react-animation-on-scroll';
 
-import { useCountUp } from 'react-countup';
+// import url from './home_service_scrpit.js';
+
+
+import CountUp,{ useCountUp } from 'react-countup';
 
 // const SimpleHook = () => {
 //   useCountUp({ ref: 'counter', end: 1234567 });
@@ -15,10 +17,24 @@ import { useCountUp } from 'react-countup';
 // };
 
 function Home_counter() {
-    useCountUp({ ref: 'counter',start:0, end: 100 ,duration:5 });
-    useCountUp({ ref: 'counter2',start:0, end: 120,duration:5  });
-    useCountUp({ ref: 'counter3',start:0, end: 140,duration:5  });
-    useCountUp({ ref: 'counter4',start:0, end: 150,duration:5  });
+    // useCountUp({ ref: 'counter',start:0, end: 100 ,duration:5,enableScrollSpy: true,
+    // scrollSpyDelay: 1000 });
+    useCountUp({
+        ref: "counter",
+        end: 123,
+        enableScrollSpy: true,
+        scrollSpyDelay: 100
+      });
+      useCountUp({
+        ref: "counter2",end: 120,enableScrollSpy: true, scrollSpyDelay: 100
+      });  
+      useCountUp({
+        ref: "counter3",end: 140,enableScrollSpy: true, scrollSpyDelay: 100
+      }); 
+      useCountUp({
+        ref: "counter4",end: 120,enableScrollSpy: true, scrollSpyDelay: 100
+      });   
+  
 
 
 
@@ -28,8 +44,10 @@ function Home_counter() {
         {/* <span className='text-white' id="counter" /> */}
     <div class="container">
         <img src={img1}/>
-
-        <span class="num"  id='counter'>000</span>
+    
+    <span class="num"  id='counter'/>
+   
+        
         <span class="text">Project Completed </span>
     </div>
     <div class="container">

@@ -2,14 +2,13 @@ import React,{useState} from 'react';
 import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
-import photoshop from '../../images/photoshop.png';
-import Pixlr from '../../images/Pixlr.jpg';
-import picsArt from '../../images/picsArt.jpg';
-import illustrator from '../../images/illustrator.png';
-import GravityDesigner from '../../images/GravitDesigner.png';
-import ClipStudioPaint from '../../images/ClipStudioPaint.png';
+import Banner from '../../images/Banner2D.jpg';
+import Template from '../../images/templates.jpg';
+import enviornment from '../../images/2d_enviornment.jpg';
+
+
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-import cardimg from '../../images/cardimg.webp';
+import cardimg from '../../images/Bussiness1.jpg';
 import Modal from '@mui/material/Modal';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
@@ -17,7 +16,7 @@ import Alert from '@mui/material/Alert';
 import { Box } from '@mui/material';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import CloseIcon from '@mui/icons-material/Close';
-import logo_service from '../../images/logo-service.png';
+import logo_service from '../../images/Logo-service.jpg';
 import cartoon from '../../images/cartoon.webp';
 
 
@@ -126,7 +125,7 @@ function Services() {
                                                             <CloseIcon className='text-white cursor-pointer'/>
                                                           </div>
                                                           
-                                                          <img src={cardimg} className="w-1/3 mx-auto opacity-100 "></img>
+                                                          <img src={cardimg} className="w-11/12 h-64 sm:h-80 lg:h-96 mx-auto opacity-100 "></img>
                                                         </div>
                                                        
                                                        </Box>
@@ -140,7 +139,7 @@ function Services() {
         {/* <AnimationOnScroll  animateOnce={true}  animateIn="animated animatedFadeInUp fadeInUp">     */}
           
         <div className='box blury-card'>       
-            <img  className='h-36 w-60   text-center mx-auto cursor-pointer' onClick={()=>handleOpen(1)} src={logo_service}>
+            <img  className='h-36 w-60   text-center mx-auto cursor-pointer' onClick={()=>handleOpen(2)} src={logo_service}>
 
               
             </img>
@@ -178,7 +177,7 @@ function Services() {
                                                             <CloseIcon className='text-white cursor-pointer'/>
                                                           </div>
                                                           
-                                                          <img src={logo_service} className="w-1/3 mx-auto opacity-100 "></img>
+                                                          <img src={logo_service} className="w-11/12 h-64 sm:h-80 lg:h-96 mx-auto opacity-100 "></img>
                                                         </div>
                                                        
                                                        </Box>
@@ -193,12 +192,12 @@ function Services() {
           
 
         <div className='box blury-card'>       
-            <img  className='h-36 w-60   text-center mx-auto cursor-pointer' onClick={()=>handleOpen(1)} src={cartoon}>
+            <img  className='h-36 w-60   text-center mx-auto cursor-pointer' onClick={()=>handleOpen(3)} src={cartoon}>
 
               
             </img>
             <div className='frame '>
-               <h2 className='text-white text-lg font-semibold xl:font-bold xl:text-xl'>Bussiness card</h2>
+               <h2 className='text-white text-lg font-semibold xl:font-bold xl:text-xl'>Cartoons</h2>
             </div>
     </div>
 
@@ -231,7 +230,7 @@ function Services() {
                                                             <CloseIcon className='text-white cursor-pointer'/>
                                                           </div>
                                                           
-                                                          <img src={cartoon} className="w-96 h-96 mx-auto opacity-100 "></img>
+                                                          <img src={cartoon} className="w-11/12 h-64 sm:h-80 lg:h-96 mx-auto opacity-100 "></img>
                                                         </div>
                                                        
                                                        </Box>
@@ -242,12 +241,12 @@ function Services() {
         <Grid item xs={12} sm={4} md={4}  >
         {/* <AnimationOnScroll  animateOnce={true}  animateIn="animated animatedFadeInUp fadeInUp"> */}
         <div className='box blury-card'>       
-            <img  className='h-36 w-60   text-center mx-auto cursor-pointer' onClick={()=>handleOpen(1)} src={cardimg}>
+            <img  className='h-36 w-60   text-center mx-auto cursor-pointer' onClick={()=>handleOpen(4)} src={Banner}>
 
               
             </img>
             <div className='frame '>
-               <h2 className='text-white  text-lg font-semibold xl:font-bold xl:text-xl'>Bussiness card</h2>
+               <h2 className='text-white  text-lg font-semibold xl:font-bold xl:text-xl'>Banner</h2>
             </div>
     </div>
 
@@ -280,7 +279,7 @@ function Services() {
                                                             <CloseIcon className='text-white cursor-pointer'/>
                                                           </div>
                                                           
-                                                          <img src={cardimg} className="w-1/3 mx-auto opacity-100 "></img>
+                                                          <img src={Banner} className="w-11/12 h-64 sm:h-80 lg:h-96 mx-auto opacity-100 "></img>
                                                         </div>
                                                        
                                                        </Box>
@@ -293,12 +292,12 @@ function Services() {
               
           
         <div className='box blury-card'>       
-            <img  className='h-36 w-60   text-center mx-auto cursor-pointer' onClick={()=>handleOpen(1)} src={cardimg}>
+            <img  className='h-36 w-60   text-center mx-auto cursor-pointer' onClick={()=>handleOpen(5)} src={Template}>
 
               
             </img>
             <div className='frame '>
-               <h2 className='text-white text-lg font-semibold xl:font-bold xl:text-xl'>Bussiness card</h2>
+               <h2 className='text-white text-lg font-semibold xl:font-bold xl:text-xl'>Template</h2>
             </div>
     </div>
 
@@ -331,7 +330,7 @@ function Services() {
                                                             <CloseIcon className='text-white cursor-pointer'/>
                                                           </div>
                                                           
-                                                          <img src={cardimg} className="w-1/3 mx-auto opacity-100 "></img>
+                                                          <img src={Template} className="w-11/12 h-64 sm:h-80 lg:h-96 mx-auto opacity-100 "></img>
                                                         </div>
                                                        
                                                        </Box>
@@ -346,29 +345,16 @@ function Services() {
           
 
         <div className='box blury-card'>       
-            <img  className='h-36 w-60   text-center mx-auto cursor-pointer' onClick={()=>handleOpen(1)} src={cardimg}>
+            <img  className='h-36 w-60   text-center mx-auto cursor-pointer' onClick={()=>handleOpen(6)} src={enviornment}>
 
               
             </img>
             <div className='frame '>
-               <h2 className='text-white text-lg font-semibold xl:font-bold xl:text-xl'>Bussiness card</h2>
+               <h2 className='text-white text-lg font-semibold xl:font-bold xl:text-xl'>2D Enviornment</h2>
             </div>
     </div>
 
-                {/* <div class="">
-                      
-                      <div class="wrapper">
-                        <div class="box blury-card">
-                          <img src="https://source.unsplash.com/900x900/?street,travel
-                  " alt="Blue Ridge Mountains"/>
-                          <div class="frame">
-                            <h2>Blue Ridge</h2>
-                            <p>MOUNTAINS</p>
-                          </div>
-                        </div>
-                      </div>
-                      
-                    </div> */}
+               
               
                     <Modal
                                                        open={open==6}
@@ -384,7 +370,7 @@ function Services() {
                                                             <CloseIcon className='text-white cursor-pointer'/>
                                                           </div>
                                                           
-                                                          <img src={cardimg} className="w-1/3 mx-auto opacity-100 "></img>
+                                                          <img src={enviornment} className="w-11/12 h-64 sm:h-80 lg:h-96 mx-auto opacity-100 "></img>
                                                         </div>
                                                        
                                                        </Box>

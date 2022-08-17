@@ -2,10 +2,10 @@ import * as React from 'react';
 import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
-import photoshop from '../../images/photoshop.png';
-import Pixlr from '../../images/Pixlr.jpg';
+import photoshop from '../../images/adobe-animate.webp';
+import Pixlr from '../../images/Blender.png';
 import picsArt from '../../images/picsArt.jpg';
-import illustrator from '../../images/illustrator.png';
+import illustrator from '../../images/Maya.png';
 import GravityDesigner from '../../images/GravitDesigner.png';
 import ClipStudioPaint from '../../images/ClipStudioPaint.png';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
@@ -54,10 +54,10 @@ function Techused() {
               <img id='1'  src={photoshop} className=' w-16 img-icon '></img>
             </div>
             
-              <h2 className='text-lg font-bold font-mono text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Adobe Photoshop</h2>
-              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>Photoshop is an extremely powerful program for creating prints and patterns to be the best they can be in the designing world. It has tools, and settings to open up new opportunities, to create design.</p>
+              <h2 className='text-lg font-bold font-mono text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Adobe Animate</h2>
+              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>It is used to design vector graphics and animation for television series, online animation, commercials, and other interactive projects.</p>
               
-               <span id="a" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+              <a href="https://helpx.adobe.com/in/animate/user-guide.html"> <span id="a" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -68,10 +68,10 @@ function Techused() {
               <img id='2' src={illustrator} className=' w-16'></img>
             </div>
             
-              <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Adobe Illustrator</h2>
-              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>It offers 2D or 3D graphics manipulation to increase efficiency in the design workflow. Designers including both professional graphic designers and digital artists  to create digital products</p>
+              <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Autodesk Maya</h2>
+              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>Maya is a professional 3D animation, modeling, simulation, and rendering toolset, designed for creating realistic characters and blockbuster-worthy effects.</p>
               
-               <span id="b" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+               <a href="https://forge.autodesk.com/developer/documentation"><span id="b" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -82,10 +82,10 @@ function Techused() {
               <img id='3' src={picsArt} className='rounded-full w-16'></img>
             </div>
             
-              <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>PicsArt</h2>
-              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>PicsArt’s has Photo Editor features endless editing tools to help you create professional-grade content. They even house an impressive Video Editor you can use to add music and effects to videos.</p>
+              <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Cartoon Animator 4</h2>
+              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>Cartoon Animator 4 - Animation Features. Puppet your 2D characters with Cartoon Animator's motion capture solution for both facial and body animation.</p>
               
-               <span id="c" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+              <a href='https://manual.reallusion.com/Cartoon_Animator_4/ENU/Pipeline/Content/Resources/4.0/01_Welcome/Welcome.htm'> <span id="c" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -99,7 +99,7 @@ function Techused() {
               <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Clip Studio Paint</h2>
               <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>Digital artists dig Clip Studio Paint’s simple collection of illustration apps because of its simplicity, mirror feature and affordability.</p>
               
-               <span id="d" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+              <a href="https://www.clipstudio.net/en/manuals/"> <span id="d" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -110,10 +110,10 @@ function Techused() {
               <img id='5' src={Pixlr} className='rounded-full w-16'></img>
             </div>
             
-              <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Pixlr</h2>
-              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>A great free graphic design software with Basic Pixlr X and Advanced Pixlr E options. You can use the extensive image stock to create image media quickly.</p>
+              <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Blender</h2>
+              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, compositing and motion tracking, even video editing.</p>
               
-               <span id="e" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+              <a href="https://docs.blender.org/" > <span id="e" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -127,7 +127,7 @@ function Techused() {
               <h2  className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Gravit Designer</h2>
               <p  className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>It is HTML-based graphic design software that can be used on any platform. It has a powerful image and vector graphic creation and manipulation capabilities.</p>
               
-               <span id="f" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+              <a href="https://documentation.corelvector.com/introduction/"> <span id="f" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
