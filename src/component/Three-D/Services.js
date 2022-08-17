@@ -2,14 +2,17 @@ import React,{useState} from 'react';
 import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
-import photoshop from '../../images/photoshop.png';
-import Pixlr from '../../images/Pixlr.jpg';
-import picsArt from '../../images/picsArt.jpg';
-import illustrator from '../../images/illustrator.png';
-import GravityDesigner from '../../images/GravitDesigner.png';
-import ClipStudioPaint from '../../images/ClipStudioPaint.png';
+import environment from '../../images/3d_envirnoment.jpg';
+import art from '../../images/3darts_concept.jpg';
+import interior from '../../images/interiorDeign.jpg';
+
+
+import props from '../../images/3d_props.webp';
+
+import outfits from '../../images/outfits.webp';
+import Charcter from '../../images/3d_Character.webp';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
-import cardimg from '../../images/cardimg.webp';
+
 import Modal from '@mui/material/Modal';
 import Typography from '@mui/material/Typography';
 import Button from '@mui/material/Button';
@@ -17,8 +20,7 @@ import Alert from '@mui/material/Alert';
 import { Box } from '@mui/material';
 import VisibilityIcon from '@mui/icons-material/Visibility';
 import CloseIcon from '@mui/icons-material/Close';
-import logo_service from '../../images/logo-service.png';
-import cartoon from '../../images/cartoon.webp';
+
 
 
 
@@ -76,11 +78,11 @@ function Services() {
         <div className="px-4 sm:px-6 md:px-8 lg:px-10 xl:px-11    mb-8">
        <AnimationOnScroll  animateOnce={true}  animateIn="animated animatedFadeInUp fadeInUp">
         <span className='Under'>
-          <h1 className='text-center text-white font-semibold text-5xl  pt-8 mb-5'>What We Do In <span className='font-pop italic  font-light text-violet-500'>2D</span></h1>
+          <h1 className='text-center text-white font-semibold text-5xl  pt-8 mb-5'>What We Do In <span className='font-pop italic  font-light text-violet-500'>3D</span></h1>
          <hr className='hr'></hr>
         </span>
        
-       <p className='text-center text-white mb-9 mt-7 font-mono text-lg'>Below are the 2d services which we provides.</p>
+       <p className='text-center text-white mb-9 mt-7 font-mono text-lg'>Below are the 3d services which we provides.</p>
        </AnimationOnScroll>
        
         <Grid  container rowSpacing={4} columnSpacing={{ xs: 1, sm: 2, md: 5 }}>
@@ -90,28 +92,16 @@ function Services() {
          
               
     <div className='box blury-card'>       
-            <img  className='  text-center mx-auto cursor-pointer' onClick={()=>handleOpen(1)} src={cardimg}>
+            <img  className='  text-center mx-auto cursor-pointer' onClick={()=>handleOpen(1)} src={outfits}>
 
               
             </img>
             <div className='frame '>
-               <h2 className='text-white text-lg font-semibold xl:font-bold xl:text-xl '>Bussiness card</h2>
+               <h2 className='text-white text-lg font-semibold xl:font-bold xl:text-xl '>Outfits</h2>
             </div>
     </div>
 
-            {/*  */}
-                  
-                    {/* <div class="box blury-card">
-                      <img src="https://source.unsplash.com/900x900/?street,travel
-              " alt="Blue Ridge Mountains"/>
-                      <div class="frame ">
-                        <h2 className='text-sm '>Blue Ridge</h2>
-                        
-                      </div>
-                    </div> */}
-                 
-            
-             {/* </div>   */}
+           
                     <Modal
                                                        open={open==1}
                                                        onClose={handleClose}
@@ -126,7 +116,7 @@ function Services() {
                                                             <CloseIcon className='text-white cursor-pointer'/>
                                                           </div>
                                                           
-                                                          <img src={cardimg} className="w-1/3 mx-auto opacity-100 "></img>
+                                                          <img src={outfits} className="w-11/12 h-64 sm:h-80 lg:h-96 mx-auto opacity-100 "></img>
                                                         </div>
                                                        
                                                        </Box>
@@ -140,29 +130,16 @@ function Services() {
         {/* <AnimationOnScroll  animateOnce={true}  animateIn="animated animatedFadeInUp fadeInUp">     */}
           
         <div className='box blury-card'>       
-            <img  className='h-36 w-60   text-center mx-auto cursor-pointer' onClick={()=>handleOpen(1)} src={logo_service}>
+            <img  className='h-36 w-60   text-center mx-auto cursor-pointer' onClick={()=>handleOpen(2)} src={Charcter}>
 
               
             </img>
             <div className='frame '>
-               <h2 className='text-white  text-lg font-semibold xl:font-bold xl:text-xl'>Logo</h2>
+               <h2 className='text-white  text-lg font-semibold xl:font-bold xl:text-xl'>Character</h2>
             </div>
     </div>
 
-                  {/* <div class="">
-                        
-                        <div class="wrapper">
-                          <div class="box blury-card">
-                            <img src="https://source.unsplash.com/900x900/?street,travel
-                    " alt="Blue Ridge Mountains"/>
-                            <div class="frame">
-                              <h2>Blue Ridge</h2>
-                              <p>MOUNTAINS</p>
-                            </div>
-                          </div>
-                        </div>
-                        
-                      </div> */}
+                  
               
                     <Modal
                                                        open={open==2}
@@ -178,7 +155,7 @@ function Services() {
                                                             <CloseIcon className='text-white cursor-pointer'/>
                                                           </div>
                                                           
-                                                          <img src={logo_service} className="w-1/3 mx-auto opacity-100 "></img>
+                                                          <img src={Charcter} className="w-11/12 h-64 sm:h-80 lg:h-96 mx-auto opacity-100 "></img>
                                                         </div>
                                                        
                                                        </Box>
@@ -193,12 +170,12 @@ function Services() {
           
 
         <div className='box blury-card'>       
-            <img  className='h-36 w-60   text-center mx-auto cursor-pointer' onClick={()=>handleOpen(1)} src={cartoon}>
+            <img  className='h-36 w-60   text-center mx-auto cursor-pointer' onClick={()=>handleOpen(3)} src={environment}>
 
               
             </img>
             <div className='frame '>
-               <h2 className='text-white text-lg font-semibold xl:font-bold xl:text-xl'>Bussiness card</h2>
+               <h2 className='text-white text-lg font-semibold xl:font-bold xl:text-xl'>3d Enviornment</h2>
             </div>
     </div>
 
@@ -231,7 +208,7 @@ function Services() {
                                                             <CloseIcon className='text-white cursor-pointer'/>
                                                           </div>
                                                           
-                                                          <img src={cartoon} className="w-96 h-96 mx-auto opacity-100 "></img>
+                                                          <img src={environment} className="w-11/12 h-64 sm:h-80 lg:h-96 mx-auto opacity-100 "></img>
                                                         </div>
                                                        
                                                        </Box>
@@ -242,29 +219,16 @@ function Services() {
         <Grid item xs={12} sm={4} md={4}  >
         {/* <AnimationOnScroll  animateOnce={true}  animateIn="animated animatedFadeInUp fadeInUp"> */}
         <div className='box blury-card'>       
-            <img  className='h-36 w-60   text-center mx-auto cursor-pointer' onClick={()=>handleOpen(1)} src={cardimg}>
+            <img  className='h-36 w-60   text-center mx-auto cursor-pointer' onClick={()=>handleOpen(4)} src={interior}>
 
               
             </img>
             <div className='frame '>
-               <h2 className='text-white  text-lg font-semibold xl:font-bold xl:text-xl'>Bussiness card</h2>
+               <h2 className='text-white  text-lg font-semibold xl:font-bold xl:text-xl'>Interior Design</h2>
             </div>
     </div>
 
-            {/* <div class="">
-                  
-                  <div class="wrapper">
-                    <div class="box blury-card">
-                      <img src="https://source.unsplash.com/900x900/?street,travel
-              " alt="Blue Ridge Mountains"/>
-                      <div class="frame">
-                        <h2>Blue Ridge</h2>
-                        <p>MOUNTAINS</p>
-                      </div>
-                    </div>
-                  </div>
-                  
-                </div> */}
+           
               
                     <Modal
                                                        open={open==4}
@@ -280,7 +244,7 @@ function Services() {
                                                             <CloseIcon className='text-white cursor-pointer'/>
                                                           </div>
                                                           
-                                                          <img src={cardimg} className="w-1/3 mx-auto opacity-100 "></img>
+                                                          <img src={interior} className="w-11/12 h-64 sm:h-80 lg:h-96 mx-auto opacity-100 "></img>
                                                         </div>
                                                        
                                                        </Box>
@@ -293,29 +257,16 @@ function Services() {
               
           
         <div className='box blury-card'>       
-            <img  className='h-36 w-60   text-center mx-auto cursor-pointer' onClick={()=>handleOpen(1)} src={cardimg}>
+            <img  className='h-36 w-60   text-center mx-auto cursor-pointer' onClick={()=>handleOpen(5)} src={props}>
 
               
             </img>
             <div className='frame '>
-               <h2 className='text-white text-lg font-semibold xl:font-bold xl:text-xl'>Bussiness card</h2>
+               <h2 className='text-white text-lg font-semibold xl:font-bold xl:text-xl'>3d Props</h2>
             </div>
     </div>
 
-                  {/* <div class="">
-                        
-                        <div class="wrapper">
-                          <div class="box blury-card">
-                            <img src="https://source.unsplash.com/900x900/?street,travel
-                    " alt="Blue Ridge Mountains"/>
-                            <div class="frame">
-                              <h2>Blue Ridge</h2>
-                              <p>MOUNTAINS</p>
-                            </div>
-                          </div>
-                        </div>
-                        
-                      </div> */}
+                  
               
                     <Modal
                                                        open={open==5}
@@ -331,7 +282,7 @@ function Services() {
                                                             <CloseIcon className='text-white cursor-pointer'/>
                                                           </div>
                                                           
-                                                          <img src={cardimg} className="w-1/3 mx-auto opacity-100 "></img>
+                                                          <img src={props} className="w-11/12 h-64 sm:h-80 lg:h-96 mx-auto opacity-100 "></img>
                                                         </div>
                                                        
                                                        </Box>
@@ -346,29 +297,16 @@ function Services() {
           
 
         <div className='box blury-card'>       
-            <img  className='h-36 w-60   text-center mx-auto cursor-pointer' onClick={()=>handleOpen(1)} src={cardimg}>
+            <img  className='h-36 w-60   text-center mx-auto cursor-pointer' onClick={()=>handleOpen(6)} src={art}>
 
               
             </img>
             <div className='frame '>
-               <h2 className='text-white text-lg font-semibold xl:font-bold xl:text-xl'>Bussiness card</h2>
+               <h2 className='text-white text-lg font-semibold xl:font-bold xl:text-xl'>3D Art</h2>
             </div>
     </div>
 
-                {/* <div class="">
-                      
-                      <div class="wrapper">
-                        <div class="box blury-card">
-                          <img src="https://source.unsplash.com/900x900/?street,travel
-                  " alt="Blue Ridge Mountains"/>
-                          <div class="frame">
-                            <h2>Blue Ridge</h2>
-                            <p>MOUNTAINS</p>
-                          </div>
-                        </div>
-                      </div>
-                      
-                    </div> */}
+                
               
                     <Modal
                                                        open={open==6}
@@ -384,7 +322,7 @@ function Services() {
                                                             <CloseIcon className='text-white cursor-pointer'/>
                                                           </div>
                                                           
-                                                          <img src={cardimg} className="w-1/3 mx-auto opacity-100 "></img>
+                                                          <img src={art} className="w-11/12 h-64 sm:h-80 lg:h-96 mx-auto opacity-100 "></img>
                                                         </div>
                                                        
                                                        </Box>

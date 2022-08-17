@@ -70,7 +70,7 @@ function Top_top_banner() {
 
   return (
     <>
-      <section class="home_header pt-8  mb-10 overflow-hidden">
+      <section class="home_header pt-8   overflow-hidden">
 		<nav className='hidden md:flex px-3'>
 			<a className='w-1/5 pl-4' href="/"><img className='w-3/4 ' src={toplogo}/></a>
 			<div className="w-4/5 flex sm:justify-center  " id="navLinks">

@@ -57,7 +57,7 @@ function Techused() {
               <h2 className='text-lg font-bold font-mono text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Adobe Photoshop</h2>
               <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>Photoshop is an extremely powerful program for creating prints and patterns to be the best they can be in the designing world. It has tools, and settings to open up new opportunities, to create design.</p>
               
-               <span id="a" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+              <a href="https://www.adobe.com/in/products/photoshop.html?gclid=Cj0KCQjwgO2XBhCaARIsANrW2X2qlr4R_NZGdSAVShuPDYsVvxRi__cfhhapbQhhbCdHOAVyw788kPAaArwEEALw_wcB&sdid=SGDJMMG3&mv=search&ef_id=Cj0KCQjwgO2XBhCaARIsANrW2X2qlr4R_NZGdSAVShuPDYsVvxRi__cfhhapbQhhbCdHOAVyw788kPAaArwEEALw_wcB:G:s&s_kwcid=AL!3085!3!444587836499!b!!g!!%2Badobe%20%2Bphotoshop!221441468!17534747708"><span id="a" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a> 
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -71,7 +71,8 @@ function Techused() {
               <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Adobe Illustrator</h2>
               <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>It offers 2D or 3D graphics manipulation to increase efficiency in the design workflow. Designers including both professional graphic designers and digital artists  to create digital products</p>
               
-               <span id="b" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+              <a href='https://www.adobe.com/in/products/illustrator.html?gclid=Cj0KCQjwgO2XBhCaARIsANrW2X1oSrldicXSAia4CyuXivbw6y6P775lpEO5MT9g5Nue0Q5D7kOedt4aApKvEALw_wcB&sdid=SBNHMR64&mv=search&ef_id=Cj0KCQjwgO2XBhCaARIsANrW2X1oSrldicXSAia4CyuXivbw6y6P775lpEO5MT9g5Nue0Q5D7kOedt4aApKvEALw_wcB:G:s&s_kwcid=AL!3085!3!586623462661!p!!g!!illustrator!16521749003!133767824069'><span id="b" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a> 
+
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -85,7 +86,8 @@ function Techused() {
               <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>PicsArt</h2>
               <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>PicsArt’s has Photo Editor features endless editing tools to help you create professional-grade content. They even house an impressive Video Editor you can use to add music and effects to videos.</p>
               
-               <span id="c" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+              <a href="https://picsart.io/api-reference"><span id="c" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a> 
+
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -99,7 +101,8 @@ function Techused() {
               <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Clip Studio Paint</h2>
               <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>Digital artists dig Clip Studio Paint’s simple collection of illustration apps because of its simplicity, mirror feature and affordability.</p>
               
-               <span id="d" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+              <a href="https://www.clipstudio.net/en/manuals/"><span id="d" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a> 
+
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -113,7 +116,8 @@ function Techused() {
               <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Pixlr</h2>
               <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>A great free graphic design software with Basic Pixlr X and Advanced Pixlr E options. You can use the extensive image stock to create image media quickly.</p>
               
-               <span id="e" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+              <a href="https://pixlr.com/e/"><span id="e" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a> 
+
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -127,7 +131,8 @@ function Techused() {
               <h2  className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Gravit Designer</h2>
               <p  className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>It is HTML-based graphic design software that can be used on any platform. It has a powerful image and vector graphic creation and manipulation capabilities.</p>
               
-               <span id="f" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+              <a href="https://documentation.corelvector.com/introduction/"><span id="f" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a> 
+
           </div>
           </AnimationOnScroll>
         </Grid>

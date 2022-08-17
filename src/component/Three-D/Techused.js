@@ -2,12 +2,12 @@ import * as React from 'react';
 import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
-import photoshop from '../../images/photoshop.png';
-import Pixlr from '../../images/Pixlr.jpg';
-import picsArt from '../../images/picsArt.jpg';
-import illustrator from '../../images/illustrator.png';
-import GravityDesigner from '../../images/GravitDesigner.png';
-import ClipStudioPaint from '../../images/ClipStudioPaint.png';
+import photoshop from '../../images/autocad.jpg';
+import Pixlr from '../../images/substance_pianter.jpg';
+import picsArt from '../../images/3ds.png';
+import illustrator from '../../images/Maya.png';
+import GravityDesigner from '../../images/zbrush.jpg';
+import ClipStudioPaint from '../../images/Blender.png';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 // import {Button} from "@material-ui/core";
@@ -51,13 +51,14 @@ function Techused() {
         <AnimationOnScroll  animateOnce={true}  animateIn="animated animatedFadeInUp fadeInUp">
           <div  className="flex-col items-center text-center px-6 py-6 rounded-lg hover:bg-blue-100 tech-item " onMouseEnter={(e)=>handleenter("a",'1')} onMouseLeave={(e)=>handleleave("a",'1')} style={{boxShadow: 'rgba(0, 0, 0, 0.05) 0px 0px 0px 1px'}}>
             <div className='flex justify-center'>
-              <img id='1'  src={photoshop} className=' w-16 img-icon '></img>
+              <img id='1'  src={photoshop} className='rounded-full w-16 img-icon '></img>
             </div>
             
-              <h2 className='text-lg font-bold font-mono text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Adobe Photoshop</h2>
-              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>Photoshop is an extremely powerful program for creating prints and patterns to be the best they can be in the designing world. It has tools, and settings to open up new opportunities, to create design.</p>
+              <h2 className='text-lg font-bold font-mono text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>AutoCAD </h2>
+              {/* draw and edit digital 2D and 3D designs more quickly and easily than you could by hand */}
+              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>AutoCAD is an extremely powerful software for draw and edit digital 2D and 3D designs more quickly and easily than you could by hand, to create design.</p>
               
-               <span id="a" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+              <a href="https://knowledge.autodesk.com/support/autocad/learn"><span id="a" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a> 
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -68,10 +69,10 @@ function Techused() {
               <img id='2' src={illustrator} className=' w-16'></img>
             </div>
             
-              <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Adobe Illustrator</h2>
-              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>It offers 2D or 3D graphics manipulation to increase efficiency in the design workflow. Designers including both professional graphic designers and digital artists  to create digital products</p>
+              <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Maya</h2>
+              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>Maya is a professional 3D animation, modeling, simulation, and rendering toolset, designed for creating realistic characters and blockbuster-worthy effects.</p>
               
-               <span id="b" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+              <a href="https://knowledge.autodesk.com/support/maya/getting-started/caas/simplecontent/content/maya-documentation.html"><span id="b" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a> 
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -82,24 +83,24 @@ function Techused() {
               <img id='3' src={picsArt} className='rounded-full w-16'></img>
             </div>
             
-              <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>PicsArt</h2>
-              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>PicsArt’s has Photo Editor features endless editing tools to help you create professional-grade content. They even house an impressive Video Editor you can use to add music and effects to videos.</p>
+              <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>3DS Max</h2>
+              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>Autodesk 3ds Max, formerly 3D Studio and 3D Studio Max, is a professional 3D computer graphics program for making 3D animations, models, games and images.</p>
               
-               <span id="c" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+              <a href="https://www.autodesk.in/products/3ds-max/overview?term=1-YEAR&AID=13084956&PID=8206971&SID=jkp_Cj0KCQjwgO2XBhCaARIsANrW2X3lVRI-j8cMW35afRzVEPsS9A-9UFTqkDvqJLCEOFuh5wCyPBW3bRIaApPcEALw_wcB&cjevent=e464d40b1d4f11ed811903800a18050f&mktvar002=afc_in_deeplink&affname=8206971_13084956&cjdata=MXxOfDB8WXww&tab=subscription&plc=3DSMAX"> <span id="c" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
         <Grid item xs={12} sm={6} md={4}  >
         <AnimationOnScroll  animateOnce={true}  animateIn="animated animatedFadeInUp fadeInUp">
-        <div  className="flex-col items-center text-center px-6 pt-6 pb-11  rounded-lg hover:bg-blue-100 tech-item " onMouseEnter={(e)=>handleenter("d",'4')} onMouseLeave={(e)=>handleleave("d",'4')} style={{boxShadow: 'rgba(0, 0, 0, 0.05) 0px 0px 0px 1px'}}>
+        <div  className="flex-col items-center text-center px-6 py-6  rounded-lg hover:bg-blue-100 tech-item " onMouseEnter={(e)=>handleenter("d",'4')} onMouseLeave={(e)=>handleleave("d",'4')} style={{boxShadow: 'rgba(0, 0, 0, 0.05) 0px 0px 0px 1px'}}>
             <div className='flex justify-center'>
               <img id='4' src={ClipStudioPaint} className='rounded-full w-16'></img>
             </div>
             
-              <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Clip Studio Paint</h2>
-              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>Digital artists dig Clip Studio Paint’s simple collection of illustration apps because of its simplicity, mirror feature and affordability.</p>
+              <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Blender</h2>
+              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>It supports the entirety of the 3D pipeline—modeling, rigging, animation, simulation, compositing and motion tracking, even video editing.</p>
               
-               <span id="d" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+               <a href="https://docs.blender.org/"><span id="d" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -110,10 +111,10 @@ function Techused() {
               <img id='5' src={Pixlr} className='rounded-full w-16'></img>
             </div>
             
-              <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Pixlr</h2>
-              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>A great free graphic design software with Basic Pixlr X and Advanced Pixlr E options. You can use the extensive image stock to create image media quickly.</p>
+              <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Substance Painter</h2>
+              <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>Substance Painter is an incredibly powerful 3D painting tool. It can be likened to a 3D version of Adobe's Photoshop for digital painting work</p>
               
-               <span id="e" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+               <a href="https://substance3d.adobe.com/documentation/home"><span id="e" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -121,13 +122,13 @@ function Techused() {
         <AnimationOnScroll  animateOnce={true}  animateIn="animated animatedFadeInUp fadeInUp">
         <div  className="flex-col items-center text-center px-6 py-6 rounded-lg hover:bg-blue-100 tech-item " onMouseEnter={()=>handleenter("f",'6')} onMouseLeave={()=>handleleave("f",'6')} style={{boxShadow: 'rgba(0, 0, 0, 0.05) 0px 0px 0px 1px'}}>
             <div  className='flex justify-center'>
-              <img id='6'  src={GravityDesigner} className=' w-16'></img>
+              <img id='6'  src={GravityDesigner} className='rounded-full w-16'></img>
             </div>
             
-              <h2  className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Gravit Designer</h2>
-              <p  className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>It is HTML-based graphic design software that can be used on any platform. It has a powerful image and vector graphic creation and manipulation capabilities.</p>
+              <h2  className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>ZBrush</h2>
+              <p  className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>ZBrush is squarely at the heart of the 3D industry . It is a common tool for professional film and video game studios all over the world.</p>
               
-               <span id="f" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+              <a href="http://docs.pixologic.com/"> <span id="f" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>

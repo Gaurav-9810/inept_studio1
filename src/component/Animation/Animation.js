@@ -10,7 +10,7 @@ import Clients from './Clients.js';
 import Testimonials from './Testimonials.js';
 import Footer from './Footer.js';
 import FBanner from './FBanner.js';
-import Services from './Services.js';
+
 import Top_banner from './Top_banner.js';
 
 
@@ -19,7 +19,7 @@ function Animation() {
   return (
     <>
     <div className='app-container'><Top_banner />
-      <TwoD_deignbeni /><Services/><Process/><Techused/><Testimonials/><Clients/><Faq/><FBanner/><Footer/>
+      <TwoD_deignbeni /><Process/><Techused/><Testimonials/><Clients/><Faq/><FBanner/><Footer/>
       
     </div>
     </>
