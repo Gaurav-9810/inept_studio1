@@ -12,6 +12,7 @@ import Footer from './Footer.js';
 import FBanner from './FBanner.js';
 import Services from './Services.js';
 import Top_banner from './Top_banner.js';
+import Steps from './Steps.js';
 
 
 
@@ -19,7 +20,7 @@ function Three_D() {
   return (
     <>
     <div className='app-container'><Top_banner />
-      <TwoD_deignbeni /><Services/><Process/><Techused/><Testimonials/><Clients/><Faq/><FBanner/><Footer/>
+      <TwoD_deignbeni /><Services/><Steps/><Techused/><Testimonials/><Clients/><Faq/><FBanner/><Footer/>
       
     </div>
     </>

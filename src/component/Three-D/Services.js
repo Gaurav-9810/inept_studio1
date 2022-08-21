@@ -2,15 +2,15 @@ import React,{useState} from 'react';
 import { styled } from '@mui/material/styles';
 import Grid from '@mui/material/Grid';
 import Paper from '@mui/material/Paper';
-import environment from '../../images/3d_envirnoment.jpg';
-import art from '../../images/3darts_concept.jpg';
-import interior from '../../images/interiorDeign.jpg';
+import environment from '../../images/3d_Work/3d_Enviornment/HOUSE.png';
+import art from '../../images/3d_Work/3dConcepts/3darts_concept.jpg';
+import interior from '../../images/3d_Work/3dInterior/interiorDeign.jpg';
 
 
-import props from '../../images/3d_props.webp';
+import props from '../../images/3d_Work/3dprops/3d_props.webp';
 
-import outfits from '../../images/outfits.webp';
-import Charcter from '../../images/3d_Character.webp';
+import outfits from '../../images/3d_Work/3doutfits/outfits.webp';
+import Charcter from '../../images/3d_Work/3doutfits/3d_Character.webp';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 import Modal from '@mui/material/Modal';
@@ -333,9 +333,15 @@ function Services() {
         
         </Grid>
         
+       
+        
 
     </div>
+    <div className='flex justify-center '>
+          <a href="/ThreeD/Explore3d" className='cursor-pointer text-white inline-block hover:bg-violet-600   bg-violet-700 px-3 py-3 rounded-lg font-semibold '>Explore Our 3d works</a>
     </div>
+    </div>
+      
     
   )
 }
