@@ -12,6 +12,7 @@ import Footer from './Footer.js';
 import FBanner from './FBanner.js';
 
 import Top_banner from './Top_banner.js';
+import Steps from './Steps';
 
 
 
@@ -19,7 +20,7 @@ function Animation() {
   return (
     <>
     <div className='app-container'><Top_banner />
-      <TwoD_deignbeni /><Process/><Techused/><Testimonials/><Clients/><Faq/><FBanner/><Footer/>
+      <TwoD_deignbeni /><Steps/><Techused/><Testimonials/><Clients/><Faq/><FBanner/><Footer/>
       
     </div>
     </>
