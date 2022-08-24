@@ -77,7 +77,7 @@ function Top_top_banner() {
 				 
                 <ul className='flex justify-evenly sm:w-4/5 lg:w-3/5 '>
 			<li className=' hover:text-slate-300 text-white font-semibold sm:text-sm md:text-sm xl:text-lg'><a href="/">HOME</a></li>
-                    <li className='hover:text-slate-300 text-white font-semibold sm:text-sm md:text-sm xl:text-lg'><a href="#">BLOG</a></li>
+                    {/* <li className='hover:text-slate-300 text-white font-semibold sm:text-sm md:text-sm xl:text-lg'><a href="#">BLOG</a></li> */}
                     <li className='hover:text-slate-300 text-white font-semibold sm:text-sm md:text-sm xl:text-lg'>
 						<div class="dropdown">
 							<span className='hover:text-slate-300 text-white font-semibold sm:text-sm md:text-sm xl:text-lg cursor-pointer'>SERVICES</span>
@@ -178,7 +178,7 @@ function Top_top_banner() {
                                                                        <hr className='my-2 border-current'></hr>
                                                                        <li style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} ><a href="">ABOUT US</a></li>
                                                                        <hr className='my-2 border-current'></hr>
-                                                                       <li style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} ><a href="">BLOG</a></li> 
+                                                                       {/* <li style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} ><a href="">BLOG</a></li>  */}
                                                                        <hr className='my-2 border-current'></hr>       
                                                                        <li style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}}  ><a href="">CONTACT US</a></li>
                                                                        <hr className='my-2 border-current'></hr>

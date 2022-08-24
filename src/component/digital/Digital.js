@@ -7,8 +7,8 @@ import Techused from './Techused.js';
 import Faq from './Faq.js';
 import Clients from './Clients.js';
 import Testimonials from './Testimonials.js';
-import Footer from './Footer.js';
-import FBanner from './FBanner.js';
+import Footer from '../Home-page/Footer.js';
+import FBanner from '../Home-page/FBanner.js';
 import Top_banner from './Top_banner.js';
 
 
