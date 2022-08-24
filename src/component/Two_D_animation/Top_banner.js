@@ -76,7 +76,7 @@ function Top_banner() {
 				 
                 <ul className='flex justify-evenly sm:w-4/5 lg:w-3/5 '>
 			<li className=' hover:text-slate-300 text-white font-semibold sm:text-sm md:text-sm xl:text-lg'><a href="/">HOME</a></li>
-                    <li className='hover:text-slate-300 text-white font-semibold sm:text-sm md:text-sm xl:text-lg'><a href="#">BLOG</a></li>
+                    {/* <li className='hover:text-slate-300 text-white font-semibold sm:text-sm md:text-sm xl:text-lg'><a href="#">BLOG</a></li> */}
                     <li className='hover:text-slate-300 text-white font-semibold sm:text-sm md:text-sm xl:text-lg'>
 						<div class="dropdown">
 							<span className='hover:text-slate-300 text-white font-semibold sm:text-sm md:text-sm xl:text-lg'>SERVICES</span>

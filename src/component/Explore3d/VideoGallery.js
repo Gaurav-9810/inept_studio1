@@ -1,10 +1,12 @@
 import React,{useState} from 'react';
+import PlayCircleIcon from '@mui/icons-material/PlayCircle';
 import video1 from '../../images/3d_Work/3dVideo/Angry_Bee_Movie.mp4';
 import video2 from '../../images/3d_Work/3dVideo/Waving_Girl.mp4';
 import video3 from '../../images/3d_Work/3dVideo/Hiding_Robot_Animation.mkv';
 import video4 from '../../images/3d_Work/3dVideo/Mountains_Call.mp4';
 import video5 from '../../images/3d_Work/3dVideo/Cubical_Beats.mp4';
 import video6 from '../../images/3d_Work/3dVideo/Phone_Ad_Demo.mp4';
+// import vid from "../../../public/3dVideo/Angry_Bee_Movie"
 
 import Typography from '@mui/material/Typography';
 import Pagination from '@mui/material/Pagination';
@@ -16,7 +18,7 @@ function VideoGallery({filterArr}) {
 
       
       const[page,setPage]=useState('1');
-      const limit=3;
+      const limit=6;
 
 
       let Pages=Math.ceil(filterArr.length/limit);
@@ -45,21 +47,29 @@ function VideoGallery({filterArr}) {
             setTempImgSrc(videoSrc);
             setModel(true);
       }
+      const handleclose=()=>{
+            setModel(false);
+            setTempImgSrc("");
+      }
   return (
       <>
       <div className={model?"model open":"model"}>
             
-            <video  controls >
-                   <source src={tempimgSrc} type="video/mp4"/>
-          </video>
-            <CloseIcon onClick={()=>{setModel(false)}}/> 
+            <video  autoPlay  controls src={`${tempimgSrc}`} />
+                  {/* {console.log("in video",tempimgSrc, typeof tempimgSrc)} */}
+                   {/* <source src={`/static/media/${tempimgSrc}`} type="video/mp4"/> */}
+            <CloseIcon onClick={()=>{handleclose()}} /> 
       </div>
       <div className='gallery'>
             {
                   data.map((items,index)=>{
                         return(
-                              <div className='pics ' key={index} onClick={()=>getImg(items.videoSrc)}>
-                                    <img src={items.imgSrc}></img>
+                              <div className='pics relative ' key={index} onClick={()=>getImg(items.videoSrc)}>
+                                    
+                                        <img src={items.imgSrc}></img>
+                                         <h1 className='text-center  text-white'>{items.name}</h1>  
+                                          <PlayCircleIcon className=" pics-data text-white bg-black rounded-full"/>
+                                    
                               </div>
                         )
                   })

@@ -6,6 +6,7 @@
       -moz-column-width: 33%;
       column-width: 33%;
       padding:0 12px;
+     
       
 }
 
@@ -103,4 +104,24 @@
       padding: 20px 0 20px;
       margin:0 auto;
 
+}
+
+.pics h1{
+      left: 50%;
+      opacity: 1!important;
+      position: absolute;
+      bottom: 5%;
+      -webkit-transform: translate(-50%,-50%);
+      transform: translate(-50%,-50%);
+      z-index: 10;
+}
+.pics .pics-data{
+      left: 50%;
+      opacity: 1!important;
+      position: absolute;
+      top: 55%;
+      font-size: 70px;
+      -webkit-transform: translate(-50%,-50%);
+      transform: translate(-50%,-50%);
+      z-index: 10;
 }

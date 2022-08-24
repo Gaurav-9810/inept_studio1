@@ -55,12 +55,12 @@ function Explorenew() {
 
       <div className='nav-expore inline-block  mb-10 cursor-pointer' >
         <ul className='flex   inline-block flex-wrap '>
-          <li style={{boxShadow:"rgba(0, 0, 0, 0.60) 0px 5px 15px 0px"}} className={` ${show===0 && "bg-violet-600 text-white " } rounded-md py-2 px-2 mr-2 border-b-violet-600 border-b-2  text-xl font-semibold mr-3 mb-5`} onClick={()=>handleshow(0)} >3d video</li>
-          <li style={{boxShadow:"rgba(0, 0, 0, 0.60) 0px 5px 15px 0px"}} className={` ${show===1 && "bg-violet-600 text-white " } rounded-md py-2 px-2 mr-2 border-b-violet-600 border-b-2  text-xl font-semibold mr-3 mb-5`}  onClick={()=>handleshow(1)}>3d Props</li>
-          <li style={{boxShadow:"rgba(0, 0, 0, 0.60) 0px 5px 15px 0px"}} className={` ${show===2 && "bg-violet-600 text-white " } rounded-md py-2 px-2 mr-2 border-b-violet-600 border-b-2  text-xl font-semibold mr-3 mb-5`} onClick={()=>handleshow(2)}>3d concept arts</li>
-          <li style={{boxShadow:"rgba(0, 0, 0, 0.60) 0px 5px 15px 0px"}} className={` ${show===3 && "bg-violet-600 text-white " } rounded-md py-2 px-2 mr-2 border-b-violet-600 border-b-2  text-xl font-semibold mr-3 mb-5`} onClick={()=>handleshow(3)}>outfits/Character</li>
-          <li  style={{boxShadow:"rgba(0, 0, 0, 0.60) 0px 5px 15px 0px"}} className={` ${show===4 && "bg-violet-600 text-white " } rounded-md py-2 px-2 mr-2 border-b-violet-600 border-b-2  text-xl font-semibold mr-3 mb-5`} onClick={()=>handleshow(4)} >interior design</li>
-          <li style={{boxShadow:"rgba(0, 0, 0, 0.60) 0px 5px 15px 0px"}} className={` ${show===5 && "bg-violet-600 text-white " } rounded-md py-2 px-2 mr-2 border-b-violet-600 border-b-2  text-xl font-semibold mr-3 mb-5`} onClick={()=>handleshow(5)} >3d enviornment</li>
+          <li style={{boxShadow:"rgba(0, 0, 0, 0.60) 0px 5px 15px 0px"}} className={` ${show===0 && "bg-violet-600 text-white " } rounded-md py-2 px-2 mr-2 border-b-violet-600 border-b-2  text-xl font-semibold mr-3 mb-5`} onClick={()=>handleshow(0)} >3D Video</li>
+          <li style={{boxShadow:"rgba(0, 0, 0, 0.60) 0px 5px 15px 0px"}} className={` ${show===1 && "bg-violet-600 text-white " } rounded-md py-2 px-2 mr-2 border-b-violet-600 border-b-2  text-xl font-semibold mr-3 mb-5`}  onClick={()=>handleshow(1)}>3D Props</li>
+          <li style={{boxShadow:"rgba(0, 0, 0, 0.60) 0px 5px 15px 0px"}} className={` ${show===2 && "bg-violet-600 text-white " } rounded-md py-2 px-2 mr-2 border-b-violet-600 border-b-2  text-xl font-semibold mr-3 mb-5`} onClick={()=>handleshow(2)}>3D Concept Arts</li>
+          <li style={{boxShadow:"rgba(0, 0, 0, 0.60) 0px 5px 15px 0px"}} className={` ${show===3 && "bg-violet-600 text-white " } rounded-md py-2 px-2 mr-2 border-b-violet-600 border-b-2  text-xl font-semibold mr-3 mb-5`} onClick={()=>handleshow(3)}>Outfits/Character</li>
+          <li  style={{boxShadow:"rgba(0, 0, 0, 0.60) 0px 5px 15px 0px"}} className={` ${show===4 && "bg-violet-600 text-white " } rounded-md py-2 px-2 mr-2 border-b-violet-600 border-b-2  text-xl font-semibold mr-3 mb-5`} onClick={()=>handleshow(4)} >Interior Design</li>
+          <li style={{boxShadow:"rgba(0, 0, 0, 0.60) 0px 5px 15px 0px"}} className={` ${show===5 && "bg-violet-600 text-white " } rounded-md py-2 px-2 mr-2 border-b-violet-600 border-b-2  text-xl font-semibold mr-3 mb-5`} onClick={()=>handleshow(5)} >3D Enviornment</li>
         </ul>
       </div>
       
