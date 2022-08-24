@@ -79,7 +79,7 @@ function Top_banner() {
                     {/* <li className='hover:text-slate-300 text-white font-semibold sm:text-sm md:text-sm xl:text-lg'><a href="#">BLOG</a></li> */}
                     <li className='hover:text-slate-300 text-white font-semibold sm:text-sm md:text-sm xl:text-lg'>
 						<div class="dropdown">
-							<span className='hover:text-slate-300 text-white font-semibold sm:text-sm md:text-sm xl:text-lg'>SERVICES</span>
+							<span className='hover:text-slate-300 text-white font-semibold sm:text-sm md:text-sm xl:text-lg cursor-pointer'>SERVICES</span>
 							<div class="dropdown-content ">
 								<ul class="dropdown-data ">
 									<li className='hover:text-slate-300'><a href="/WebD">WEB DEVELOPMENT</a></li>
@@ -89,8 +89,8 @@ function Top_banner() {
 									<li className='hover:text-slate-300'><a href="/TwoD">2D DESIGNING</a></li>
 									<li className='hover:text-slate-300'><a href="/ThreeD">3D DESIGNING</a></li>
 									<li className='hover:text-slate-300'><a href="/Animation">ANIMATION</a></li>
-									<li className='hover:text-slate-300'><a href="#">GAME DEVELOPMENT</a></li>
-									<li className='hover:text-slate-300'><a href="#">DIGITAL MARKETING</a></li>
+									<li className='hover:text-slate-300'><a href="/Game">GAME DEVELOPMENT</a></li>
+									<li className='hover:text-slate-300'><a href="/Digital">DIGITAL MARKETING</a></li>
                   
                   
 
@@ -100,8 +100,8 @@ function Top_banner() {
 						</div>
 					</li>
 
-					<li className='hover:text-slate-300 text-white font-semibold sm:text-sm md:text-sm xl:text-lg'><a href="">ABOUT US</a></li>
-					<li className='hover:text-slate-300 text-white font-semibold sm:text-sm md:text-sm xl:text-lg'><a href="">CONTACT US</a></li>
+					<li className='hover:text-slate-300 text-white font-semibold sm:text-sm md:text-sm xl:text-lg'><a href="/AboutUs">ABOUT US</a></li>
+					<li className='hover:text-slate-300 text-white font-semibold sm:text-sm md:text-sm xl:text-lg'><a href="/ContactUs">CONTACT US</a></li>
 				</ul>
 			</div>		
 		</nav>
@@ -167,19 +167,19 @@ function Top_banner() {
                                                                              <hr className='my-2 border-current'></hr>
                                                                              <li  style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} className='' ><a href="/Animation">ANIMATION</a></li>
                                                                              <hr className='my-2 border-current'></hr>
-                                                                             <li  style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} className='' ><a href="#">GAME DEVELOPMENT</a></li>
+                                                                             <li  style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} className='' ><a href="/Game">GAME DEVELOPMENT</a></li>
                                                                              <hr className='my-2 border-current'></hr>
                                                                              <li  style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} className='' ><a href="/App">APP DEVELOPMENT</a></li>
                                                                              <hr className='my-2 border-current'></hr>
-                                                                             <li  style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} className='' ><a href="#">DIGITAL MARKETING</a></li>
+                                                                             <li  style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} className='' ><a href="/Digital">DIGITAL MARKETING</a></li>
                                                                           </ul>
                                                                        </li>
                                                                        <hr className='my-2 border-current'></hr>
-                                                                       <li style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} ><a href="">ABOUT US</a></li>
+                                                                       <li style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} ><a href="/AboutUs">ABOUT US</a></li>
                                                                        <hr className='my-2 border-current'></hr>
-                                                                       <li style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} ><a href="">BLOG</a></li> 
+                                                                       {/* <li style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} ><a href="">BLOG</a></li>  */}
                                                                        <hr className='my-2 border-current'></hr>       
-                                                                       <li style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}}  ><a href="">CONTACT US</a></li>
+                                                                       <li style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}}  ><a href="/ContactUs">CONTACT US</a></li>
                                                                        <hr className='my-2 border-current'></hr>
                                                                     </ul>
                                                                       
@@ -217,7 +217,7 @@ function Top_banner() {
 
 
 		<div className='flex justify-center   relative overflow-hidden'>
-			    <h1 class=" text-3xl sm:text-5xl md:text-5xl mt-44 font-semibold text-white z-10 "> 2D DESIGNING</h1>
+			    <h1 class=" text-3xl sm:text-5xl md:text-5xl mt-44 font-semibold text-white z-10 ">2-D DEVELOPMENT</h1>
 			  <div  className="top_leftanim  " >
 				<img  src={RightwhiteCurve}/>
         
