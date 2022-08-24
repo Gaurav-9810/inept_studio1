@@ -1,0 +1,368 @@
+.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 110vh;
+}
+
+.back::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    
+}
+
+.ContactIn{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.ccontainer{
+    position: relative;
+    min-width: 1200px;
+    min-height: 596px;
+    display: flex;
+    z-index: 1000;
+    
+}
+
+/* contact info section start */
+.ccontainer .ccontactInfo{
+   background-image: url(../../images/bg-lining.png);
+    position: absolute;
+    top: -10px;
+    width: 460px;
+    height: calc(100% - 5px);
+    
+    z-index: 1;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.19);
+
+
+}
+
+.ccontainer .ccontactInfo h2
+{
+color: black;
+font-size: 36px;
+font-weight: 600;
+}
+
+
+
+.ccontainer .ccontactInfo .profileimg {
+    height: 250px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.ccontainer .ccontactInfo .profileimg img{
+   width : auto;
+   height: auto;
+   object-fit: contain;
+}
+
+
+
+.ccontainer .ccontactInfo ul.iinfo{
+    position: relative;
+    margin: 20px 0px;
+}
+
+.ccontainer .ccontactInfo ul.iinfo li{
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin: 20px 0px;
+    margin-left: 16px;
+    cursor: pointer;
+    align-items: flex-start;
+}
+
+.ccontainer .ccontactInfo ul.iinfo li span:nth-child(1){
+    width: 30px;
+    min-width: 30px;
+}
+
+.ccontainer .ccontactInfo ul.iinfo li span:nth-child(1) img{
+    max-width: 100%;
+    /* filter: invert(1); */
+}
+
+.ccontainer .ccontactInfo ul.iinfo li span:nth-child(2){
+color: black;
+margin-left: 20px;
+font-weight: 500;
+font-size: larger;
+font-family: sans-serif;
+
+}
+/* contact info section end */
+
+/* logo section like facebook */
+.ccontainer .ccontactInfo ul.llogo{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.ccontainer .ccontactInfo ul.llogo li{
+    list-style: none;
+    margin-right: 20px;
+}
+
+.ccontainer .ccontactInfo ul.llogo li a{
+    text-decoration: none;
+
+}
+.ccontainer .ccontactInfo ul.llogo li a img{
+    max-width: 50px;
+    /* filter: invert(2); */   
+}
+.llogo img{
+    width: 60px;
+    transition: 0.5s;
+}
+
+.llogo a:hover img{
+    transform: translateY(-12px);
+}
+/* logo section end here */
+
+/* contactform section starts */
+.ccontainer .ccontactForm
+{
+    position: absolute;
+    padding: 70px 50px;
+    background: #fff;
+    padding-left: 403px;
+    margin-left: 140px;
+    height: 100.5%;
+    width: 90%;
+    background: #fff;
+    box-shadow: 0 50px 50px rgba(0,0,0,0.25);
+    
+}  
+.fformbox input,
+.fformbox textarea{
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 8px;
+    border: none;
+    background-color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 300;
+}
+
+.bbtn{
+    padding: 2px 8px;
+    border: 2px solid #fff;
+    background-color: #410373;
+    color:white;
+    font-size: 1.4rem;
+    border-radius: 8px;
+    cursor: pointer;
+    
+
+
+}
+.bbtn:hover{
+    color:whitesmoke;
+    background:  #4d157b;;
+} 
+
+.ccontactForm h2{
+    
+        font-weight: 700;
+        font-size: 30px;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #400272;
+        position: absolute;
+        bottom: 540px;
+    }
+.fformbox{
+    margin-top: 3px;
+}
+
+
+
+
+
+/* responsive */
+@media(max-width:1300px)
+{
+  
+    .ccontainer{
+    width: 950px;
+    min-width: auto;
+    /* margin: 20px; */
+  /* box-shadow: 0 20px 50px rgba(0,0,0,0.25);  */
+    }
+
+   .ccontainer.ccontactInfo{
+    
+    height: auto;
+    position: relative;
+    box-shadow: none;
+
+   }
+
+
+   .outer_profile{
+    display: flex;
+    flex-direction: row-reverse;
+    height: auto;
+    margin-top : 40px;
+    margin-bottom: 45px;
+   }
+
+   .profileimg{
+    margin-left: 130px;
+   }
+
+   
+   
+   .ccontainer .ccontactForm{
+    position: relative; 
+    width: 20%;
+    /* padding-left: 22px;
+    margin-left: 372px; */
+    height: 580px;
+    padding-top: 50px;
+    padding-left: 10px;
+    box-shadow: none;
+    
+}
+
+   }
+
+   @media (max-width:1300px){
+    
+    .back{
+        background: snow;
+    }
+
+    .back::before{
+        display: none;
+    }
+    .ccontainer{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .ccontainer .ccontactForm{
+        width: auto;
+        margin: -3px;
+        top: -21px;
+    }
+
+    .ccontainer .ccontactInfo{
+        position: relative;
+        top: -16px;
+        width: 100%;
+        padding-left : 40px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+
+    }
+
+   }
+
+   
+
+ @media (max-width : 1000px) {
+
+    .ccontainer{
+      padding-left : 30px;
+      padding-right: 20px;
+    }
+
+    .profileimg{
+        margin-left: 30px;
+     }
+
+     .social_m{
+        margin-top: 10px;
+     }
+
+ }
+
+ @media (max-width : 800px) {
+
+
+    .profileimg{
+        margin-left: 60px;
+     }
+
+     .social_m{
+        margin-top: 0px;
+     }
+
+     .ccontainer .ccontactInfo{
+        padding-left: 10px;
+        padding-top: 10px;
+     }
+
+     .outer_profile{
+       margin-bottom: 10px;
+       margin-right: 20px;
+     }
+
+      
+     .ccontainer .ccontactInfo ul.iinfo li{ 
+        margin: 8px 0px;
+        margin-left: 10px;  
+    }
+
+    .ccontainer .ccontactInfo .profileimg img{
+        height: auto;
+        width: 330px;
+        margin-right: 20px;
+        padding-bottom: 50px;
+     }
+
+
+ }
+
+ @media (max-width : 650px) {
+    
+    .outer_profile{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+
+    .ccontainer .ccontactInfo .profileimg img{
+        height: 250px;
+        width: auto;
+        margin-left: 20px;
+        /* margin-right: 20px; */
+     }
+
+     .ccontainer .ccontactInfo ul.iinfo li{ 
+        margin: 20px 0px;
+        margin-left: 20px;  
+    }
+
+    .profileimg{
+        margin-left : 0px;
+     }
+
+
+
+ }
+
+
+
+

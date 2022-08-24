@@ -1,0 +1,88 @@
+
+#hello-services{
+    padding-left: 40px;
+    display: flex;
+    width:100%;
+    justify-content: space-between;
+    height: auto;
+    padding-bottom: 40px;
+}
+
+#hello-services .hello-box1{
+     /* margin: 5px 15px; */
+    border-radius: 28px;
+    width: 49%;
+
+}
+
+
+    #hello-services .hello-box1 h1{
+       padding-top: 40px;
+        font-family:  sans-serif;
+        line-height: 50px;
+        font-size: 44px;
+        font-weight: 790;
+        margin-bottom: 13px;
+    }
+
+    
+
+    #hello-services .hello-box1 i{
+        font-size: 20px;
+        line-height: 25px;
+        font-weight: 200;
+    }
+
+    #hello-services .hello-box1 ul li{
+        font-size: 20px;
+        font-weight: 100;
+        font-family: sans-serif;
+        line-height: 40px;
+    }
+
+    .quote{
+        margin-bottom: 20px;
+    }
+
+    .hello-box2{
+        object-fit: contain;
+        width: 49%;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .hello-box2 img{
+        width : 80%;
+        height : 80%;
+    }
+
+    @media only screen and (min-width:320px) and (max-width:780px){
+      #hello-services{
+        flex-direction: column-reverse;
+        width: 100%;
+        padding-left: 0px;
+      }  
+
+      
+    #hello-services .hello-box1 {
+        width: 90%;
+        margin-right : 5%;
+        margin-left: 5%;
+    }
+
+    #hello-services .hello-box2 {
+        width: 90%;
+        margin-right : 5%;
+        margin-left: 5%;
+    }
+
+    .hello-box2 img{
+        width : 100%;
+        height : 100%;
+    }
+
+}
+

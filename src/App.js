@@ -12,6 +12,8 @@ import Two from './component/Two_D_animation/Two';
 import Home from './component/Home-page/Home.js';
 import Game from './component/game-dev/Game_dev.js';
 import Digital from './component/digital/Digital.js';
+import About from './component/About_us/About.js';
+import Contact from './component/Contact_us/Contact.js';
 import Explore3d from './component/Explore3d/Explore3d';
 import Explore2d from './component/Explore2d/Explore2d';
 
@@ -38,9 +40,10 @@ function App() {
           <Route path='/UI' element={[<UI/>]}></Route>
           <Route path='/Game' element={[<Game/>]}></Route>
           <Route path='/Digital' element={[<Digital/>]}></Route>
+          <Route path='/AboutUs' element={[<About/>]}></Route>
+          <Route path='/ContactUs' element={[<Contact/>]}></Route>
           <Route path='/ThreeD/Explore3d' element={[<Explore3d/>]}></Route>
           <Route path='/TwoD/Explore2d' element={[<Explore2d/>]}></Route>
-
 
 
           <Route path='/' element={[<Home/>]}></Route>

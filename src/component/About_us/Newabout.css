@@ -1,0 +1,87 @@
+
+#About-services5{
+    /* margin: 57px; */
+    display: flex;
+    width:100%;
+   justify-content: space-between;
+   margin-bottom: 32px;
+
+}
+
+#About-services5 .About-box5{
+     /* margin: 5px 10px; */
+    
+    width: 49%;
+    
+}
+#About-services5 .About-box5 img{
+height: 460px;
+margin: auto;
+display: block;
+
+width : 100%;
+}
+
+#About-services5 .About-box5 h1{
+    font-family: Sans-serif;
+
+    line-height: 50px;
+    font-size: 44px;
+    font-weight: 790; 
+    margin-bottom: 13px;
+    padding-right: 40px;
+}
+
+#About-services5 .About-box5 h3{
+    font-size: 22px;
+    font-family: Sans-serif;
+
+    line-height: 26px;
+    font-weight: 300;
+    margin-bottom: 12px;
+    padding-right: 40px;
+}
+
+#About-services5 .About-box5 h4{
+   
+
+    line-height: 30px;
+    font-size: 20px;
+    padding-right: 40px;
+    font-weight: 250;
+
+    margin-bottom: 10px;
+
+}
+
+#About-services5 .About-box5 ul{
+    font-family: sans-serif;
+}
+#About-services5 .About-box5 ul li{
+    font-size: 20px;
+    line-height: 40px;
+    font-weight: 300;
+    list-style-position: inside;
+    /* list-style-image: url('../Images/tick.png'); */
+    
+    /* margin: 30px; */
+    
+}
+
+@media only screen and (min-width:300px) and (max-width:780px){
+    #About-services5{
+        flex-direction: column;
+        width: 100%;
+    }
+    
+   
+    #About-services5 .About-box5{
+        width: 90%;
+        margin-right : 5%;
+        margin-left: 5%;
+    }
+    
+    }
+
+
+
