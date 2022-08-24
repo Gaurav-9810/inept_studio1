@@ -9,12 +9,27 @@ import props2 from '../../images/3d_Work/3dprops/Sword_Trial1.jpg';
 import props3 from '../../images/3d_Work/3dprops/Sword_Trial6.png';
 import props4 from '../../images/3d_Work/3dprops/Sword_Trial7.png';
 
-import video1 from '../../images/3d_Work/3dVideo/Angry_Bee_Movie.mp4';
-import video2 from '../../images/3d_Work/3dVideo/Waving_Girl.mp4';
+import video1 from '../../images/3d_Work/3dVideo/Inept.mkv';
+import video2 from '../../images/3d_Work/3dVideo/Vintage_AI_Car.mp4';
 import video3 from '../../images/3d_Work/3dVideo/Hiding_Robot_Animation.mkv';
 import video4 from '../../images/3d_Work/3dVideo/Mountains_Call.mp4';
-import video5 from '../../images/3d_Work/3dVideo/Cubical_Beats.mp4';
+import video5 from '../../images/3d_Work/3dVideo/Imposter_Run.mkv';
 import video6 from '../../images/3d_Work/3dVideo/Phone_Ad_Demo.mp4';
+
+import videoimg1 from '../../images/3d_Work/3dVideoimg/inept_add.jpeg';
+import videoimg2 from '../../images/3d_Work/3dVideoimg/car.png';
+import videoimg3 from '../../images/3d_Work/3dVideoimg/robot.png';
+import videoimg4 from '../../images/3d_Work/3dVideoimg/mountains.png';
+import videoimg5 from '../../images/3d_Work/3dVideoimg/imposter.png';
+import videoimg6 from '../../images/3d_Work/3dVideoimg/mobile.png';
+import videoimg7 from '../../images/3d_Work/3dVideoimg/studio_intro.png';
+import videoimg8 from '../../images/3d_Work/3dVideoimg/sword.png';
+import videoimg9 from '../../images/3d_Work/3dVideoimg/Waving_Girl.png';
+import videoimg10 from '../../images/3d_Work/3dVideoimg/Ninja.png';
+
+
+
+
 
 import threeEnvironment1 from '../../images/3d_Work/3d_Enviornment/HOUSE.png';
 import threeEnvironment2 from '../../images/3d_Work/3d_Enviornment/HalloweenCastle.png';
@@ -29,6 +44,14 @@ import three3concept3 from '../../images/3d_Work/3dConcepts/Magical_Cubes.png';
 import three3concept4 from '../../images/3d_Work/3dConcepts/Saviour.png';
 
 import interior from '../../images/3d_Work/3dInterior/interiorDeign.jpg';
+
+import TwoDVideo1 from '../../images/Animation/TwoD_Video/ninja animation_1.mp4';
+import TwoDVideo2 from '../../images/3d_Work/3dVideo/Studio_Intro.mp4';
+
+import CharcterAnimation1 from '../../images/3d_Work/3dVideo/Waving_Girl.mp4';
+import CharcterAnimation2 from '../../images/3d_Work/3dVideo/Hitman_Sword.mp4';
+
+
 
 export const ThreeDEnvi=[
       {     id:1,
@@ -104,35 +127,61 @@ export const ThreeDConcept=[
 export const video=[
       {     id:1,
             videoSrc:video1,
-            imgSrc:three3concept1
+            imgSrc:videoimg1,
+            name:"Inept Advertisement"
       },
       {     id:2,
             videoSrc:video2,
-            imgSrc:three3concept1
+            imgSrc:videoimg2,
+            name:"Vintage Car"
+
 
       },
       {     id:3,
             videoSrc:video3,
-            imgSrc:three3concept1
+            imgSrc:videoimg3,
+            name:"Hiding Robot"
+
 
       },
       {     id:4,
             videoSrc:video4,
-            imgSrc:three3concept1
+            imgSrc:videoimg4,
+            name:"Mountains Call"
+
 
       },
       {     id:5,
             videoSrc:video5,
-            imgSrc:three3concept1
+            imgSrc:videoimg5,
+            name:"Imposter Run"
+
 
       },
       {
             id:6,
             videoSrc:video6,
-            imgSrc:three3concept1
+            imgSrc:videoimg6,
+            name:"Phone Advertisement"
+
 
       }
 ]
+
+export const Twovideo=[
+      {     id:1,
+            videoSrc:TwoDVideo1,
+            imgSrc:videoimg10,
+            name:"Ninja"
+      },
+      {     id:2,
+            videoSrc:TwoDVideo2,
+            imgSrc:videoimg7,
+            name:"Studio Intro"
+
+
+      },
+      ]
 
 export const Interior=[
       {     id:1,
@@ -154,3 +203,20 @@ export const Interior=[
             imgSrc:interior,
       }
 ]
+
+
+
+export const CharacterAnimation=[
+      {     id:1,
+            videoSrc:CharcterAnimation1,
+            imgSrc:videoimg9,
+            name:"Waving Girl"
+      },
+      {     id:2,
+            videoSrc:CharcterAnimation2,
+            imgSrc:videoimg8,
+            name:"Hitman Sword"
+
+
+      }
+      ]

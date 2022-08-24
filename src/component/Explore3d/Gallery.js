@@ -20,7 +20,7 @@ function Gallery({filterArr}) {
      
 
       const[page,setPage]=useState('1');
-      const limit=3;
+      const limit=6;
 
 
       let Pages=Math.ceil(filterArr.length/limit);
@@ -54,11 +54,11 @@ function Gallery({filterArr}) {
             <img src={tempimgSrc}></img>
             <CloseIcon onClick={()=>{setModel(false)}}/> 
       </div>
-      <div className='gallery'>
+      <div className='gallery '>
             {
                   data.map((items,index)=>{
                         return(
-                              <div className='pics ' key={index} onClick={()=>getImg(items.imgSrc)}>
+                              <div className='pics border-2 border-black' key={index} onClick={()=>getImg(items.imgSrc)}>
                                     <img src={items.imgSrc}></img>
                               </div>
                         )

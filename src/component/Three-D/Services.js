@@ -179,20 +179,7 @@ function Services() {
             </div>
     </div>
 
-    {/* <div class="">
-          
-          <div class="wrapper">
-            <div class="box blury-card">
-              <img src="https://source.unsplash.com/900x900/?street,travel
-      " alt="Blue Ridge Mountains"/>
-              <div class="frame">
-                <h2>Blue Ridge</h2>
-                <p>MOUNTAINS</p>
-              </div>
-            </div>
-          </div>
-          
-        </div> */}
+    
               
                      <Modal
                                                        open={open==3}
