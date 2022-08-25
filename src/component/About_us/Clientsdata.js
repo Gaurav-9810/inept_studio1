@@ -1,4 +1,3 @@
-/// import img1 from '../images/449280-PF60W3-495.jpg';
 import LaunchIcon from '@mui/icons-material/Launch';
 
 import swasth from '../../images/swasth.jpeg';
