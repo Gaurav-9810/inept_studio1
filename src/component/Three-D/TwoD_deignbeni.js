@@ -1,5 +1,5 @@
 import React from 'react';
-import image1 from '../../images/slider_img-1.png';
+import image1 from '../../images/3dDesign.jpg';
 
 
 
@@ -18,7 +18,7 @@ function TwoD_deignbeni() {
         </ol>      
       </div>
       <div className='w-11/12 h-72    sm:my-auto sm:w-1/2  sm:pl-7  lg:flex lg:justify-end ' >
-          <img className='sm:h-72 h-60 m-auto lg:h-96 ' src={image1}></img>
+          <img className='sm:h-96 h-72 m-auto lg:h-96 ' src={image1}></img>
       </div>
 
     </div>

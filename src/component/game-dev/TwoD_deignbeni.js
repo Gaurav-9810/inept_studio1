@@ -1,5 +1,5 @@
 import React from 'react';
-import image1 from '../../images/slider_img-1.png';
+import image1 from '../../images/GameDev.jpg';
 
 
 
