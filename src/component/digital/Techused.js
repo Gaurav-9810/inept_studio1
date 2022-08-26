@@ -59,7 +59,8 @@ function Techused() {
 
 </p>
               
-               <span id="a" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+                
+              <a href = 'https://developers.google.com/search/docs/beginner/seo-starter-guide' target="_blank"> <span id="a" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -73,7 +74,8 @@ function Techused() {
               <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Google Analytics</h2>
               <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>It only takes a couple of minutes to add the Analytics code to your website, giving you the ability to track every action by every visitor and manage the SEO.</p>
               
-               <span id="b" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+                
+              <a href = 'https://developers.google.com/analytics' target="_blank"> <span id="b" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -87,7 +89,8 @@ function Techused() {
               <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Google Adwords</h2>
               <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>Google Ads is a great way to promote your site, services, or page. With Google Ads, you can promote your brand and company, finding relevant users and increasing conversion rate.</p>
               
-               <span id="c" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+                
+              <a href = 'https://developers.google.com/adwords/api/docs/guides/start' target="_blank"> <span id="c" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -101,7 +104,8 @@ function Techused() {
               <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Facebook Business Manager </h2>
               <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>Facebook business manager is the perfect way to maximize the use of your Facebook business profile. Facebook Pages are the gateway for businesses.</p>
               
-               <span id="d" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+               
+              <a href = 'https://www.facebook.com/business/tools/meta-business-suite?content_id=f9T37SzAek6LEyX&ref=sem_smb&utm_source=GOOGLE&utm_medium=fbsmbsem&utm_campaign=PFX_SEM_G_BusinessAds_IN_EN_Brand_Phrase_Desktop&utm_content=FBS-Manager_Evaluating&kenid=_k_EAIaIQobChMI6Mv1jOjh-QIV2JlmAh04KQyhEAAYASAAEgIPnPD_BwE_k_&utm_term=facebook%20manager&utm_ct=EVG&gclid=EAIaIQobChMI6Mv1jOjh-QIV2JlmAh04KQyhEAAYASAAEgIPnPD_BwE' target="_blank">  <span id="d" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -115,7 +119,8 @@ function Techused() {
               <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>SEMrush</h2>
               <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>SEMrush is a toolkit that grow the online visibility of the business with SEO, content marketing, market research, advertising, social media management and search engine reputation management.</p>
               
-               <span id="e" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+                
+              <a href = 'https://developer.semrush.com/api/v3/analytics/basic-docs/' target="_blank"> <span id="e" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -131,7 +136,8 @@ function Techused() {
 
 </p>
               
-               <span id="f" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+                
+              <a href = 'https://app.neilpatel.com/en/ubersuggest/' target="_blank"> <span id="f" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>

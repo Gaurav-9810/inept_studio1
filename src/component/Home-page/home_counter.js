@@ -1,9 +1,14 @@
 import React, { useEffect } from 'react';
 import './home_counter.css';
-import img1 from '../../images/Project completed.jpg';
-import img2 from '../../images/actice clients.webp';
-import img3 from '../../images/cup of coffee.webp';
-import img4 from '../../images/Happy clients.jpg';
+// import img1 from '../../images/Project completed.jpg';
+// import img2 from '../../images/actice clients.webp';
+// import img3 from '../../images/cup of coffee.webp';
+// import img4 from '../../images/Happy clients.jpg';
+// import AccountCircleIcon from '@mui/icons-material/AccountCircle';
+import GroupIcon from '@mui/icons-material/Group';
+import CoffeeIcon from '@mui/icons-material/Coffee';
+import FileCopyIcon from '@mui/icons-material/FileCopy';
+import HailIcon from '@mui/icons-material/Hail';
 import { AnimationOnScroll } from 'react-animation-on-scroll';
 
 // import url from './home_service_scrpit.js';
@@ -43,7 +48,7 @@ function Home_counter() {
       <div className='home_service_container'><div class="wrapper">
         {/* <span className='text-white' id="counter" /> */}
     <div class="container">
-        <img src={img1}/>
+     <FileCopyIcon className='counterimg'sx={{fontSize:'70px'}}/>
     
     <span class="num"  id='counter'/>
    
@@ -51,17 +56,17 @@ function Home_counter() {
         <span class="text">Project Completed </span>
     </div>
     <div class="container">
-        <img src={img2}/>
+        <HailIcon className='counterimg'  sx={{fontSize:'70px'}}/>
         <span class="num"  id='counter2'>000</span>
         <span class="text">Active Clients</span>
     </div>
     <div class="container">
-        <img src={img3}/>
+        <CoffeeIcon className='counterimg'sx={{fontSize:'70px'}} />
         <span class="num" id='counter3'>000</span>
         <span class="text">Cup of Coffee</span>
     </div>
     <div class="container">
-        <img src={img4}/>
+        <GroupIcon className='counterimg' sx={{fontSize:'70px'}}/>
         <span class="num" id='counter4'>000</span>
         <span class="text">Happy Clients</span>
     </div>
