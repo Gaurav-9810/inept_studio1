@@ -12,7 +12,7 @@ import Footer from '../Home-page/Footer.js';
 import FBanner from '../Home-page/FBanner.js';
 import Services from './Services.js';
 import Top_banner from './Top_banner.js';
-import Steps from './Steps.js'
+import Steps from '../digital/Steps.js';
 
 
 

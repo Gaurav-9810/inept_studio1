@@ -384,7 +384,7 @@ function Services() {
 
     </div>
     <div className='flex justify-center '>
-          <a href="/TwoD/Explore2d" className='cursor-pointer text-white inline-block hover:bg-violet-600   bg-violet-700 px-3 py-3 rounded-lg font-semibold '>Explore Our 3d works</a>
+          <a href="/TwoD/Explore2d" className='cursor-pointer text-white inline-block hover:bg-violet-600   bg-violet-700 px-3 py-3 rounded-lg font-semibold '>Explore Our 2d works</a>
     </div>
     </div>
     

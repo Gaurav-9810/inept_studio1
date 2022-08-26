@@ -82,7 +82,7 @@ function Steps() {
                   </div>
             </div>
 
-            <div className=' lg:w-4/12 lg:pb-14 lg:ml-12  '>
+            <div className='  lg:w-4/12 lg:pb-14 lg:ml-12  '>
                   <AnimationOnScroll animateOnce={true}  animateIn="animated animatedFadeInUp sideanimation">
                   <img className='   ' src={Faqimg}></img>
                   </AnimationOnScroll>

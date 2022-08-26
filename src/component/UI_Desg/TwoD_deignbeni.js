@@ -8,7 +8,7 @@ function TwoD_deignbeni() {
     <div className='mt-3 mx-4 md:flex   md:mx-10   lg:mb-8 xl:mb-20'>
       <div className=' md:w-1/2  xl:mx-auto    '>
           <h1 className='font-semibold text-4xl sm:text-5xl mb-6'>How UI/UX help your business</h1>
-        <ol className='text-lg lg:text-2xl sm:text-xl font-normal '>
+        <ol className='text-lg'>
           <li className='leading-10'>1- Provides consistency across websites and applications.</li>
           <li className='leading-10'>2- Attracts and engages users with excellent UI/UX designs.</li>
           <li className='leading-10'>3- If your app or website has better UI/UX, then you will experience better traffic.</li>
