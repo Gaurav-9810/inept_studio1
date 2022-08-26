@@ -104,7 +104,7 @@ function Home_Service() {
             <img src={img1}/>
             <h2>WEB DEVELOPMENT</h2>
             <p> HTML, CSS , JS , REACT , NODE JS , MY SQL </p>
-            <a href="#" class="Service_btn">EXPLORE MORE</a>
+            <a href="/WebD" class="Service_btn">EXPLORE MORE</a>
         </div>
      </div> 
 
@@ -113,7 +113,7 @@ function Home_Service() {
             <img src={img2}/>
             <h2>APP DEVELOPMENT</h2>
             <p>FLUTTER , REACT NATIVE , SWIFT , PYTHON</p>
-            <a href="#" class="Service_btn">EXPLORE MORE</a>
+            <a href="/App" class="Service_btn">EXPLORE MORE</a>
         </div>
       </div>
    </div> 
@@ -126,7 +126,7 @@ function Home_Service() {
                 <img src={img3}/>
                 <h2>GRAPHICS (2-D / 3-D)</h2>
                 <p> PHOTOSHOP , ILLUSTRATOR , BLENDER , MAYA </p>
-                <a href="#" class="Service_btn">EXPLORE MORE</a>
+                <a href="/ThreeD" class="Service_btn">EXPLORE MORE</a>
             </div>
         </div> 
 
@@ -134,8 +134,8 @@ function Home_Service() {
             <div ref={tiltRef4} id="Service_card4" class="Service_card" data-tilt>
                 <img src={img4}/>
                 <h2>GAME DEVELOPMENT</h2>
-                <p>  HTML, PYTHON , JS , REACT , NODE JS , MY SQL  </p>
-                <a href="#" class="Service_btn">EXPLORE MORE</a>
+                <p>  UNREAL , UNITY , JS , REACT , NODE JS , MY SQL  </p>
+                <a href="/Game" class="Service_btn">EXPLORE MORE</a>
             </div>
         </div> 
 
@@ -144,16 +144,16 @@ function Home_Service() {
                 <img src={img5}/>
                 <h2>DIGITAL MARKETING</h2>
                 <p> SEMURSH , UBERSUGGEST , GOOGLE ANALYTICS , SEO  </p>
-                <a href="#" class="Service_btn">EXPLORE MORE</a>
+                <a href="/Digital" class="Service_btn">EXPLORE MORE</a>
             </div>
         </div> 
 
         <div class="Service_container">
             <div ref={tiltRef6} id="Service_card6" class="Service_card" data-tilt>
                 <img src={img6}/>
-                <h2>Nishant Bisth</h2>
+                <h2>ANIMATION</h2>
                 <p> PHOTOSHOP , ILLUSTRATOR , BLENDER , MAYA  </p>
-                <a href="#" class="Service_btn">EXPLORE MORE</a>
+                <a href="/Animation" class="Service_btn">EXPLORE MORE</a>
             </div>
         </div> 
       

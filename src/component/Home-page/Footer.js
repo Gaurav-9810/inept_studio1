@@ -23,7 +23,7 @@ function Footer() {
 <div className=' footer h-auto    text-gray-400 py-5 px-4 text-lg leading-7 pt-14 '>
   <div class="row  sm:flex md:mx-4 my-4 mb-11 ">
       <div className="col sm:mx-2 sm:w-3/12 md:w-4/12">
-           <img class="logo mb-4" src={logo}/>
+           <img class="logo mb-4 md:w-1/4 " src={logo}/>
            <p className='text-sm md:text-base lg:text-2xl mb-4'> Welcome to Inept Studio <br/> Explore your bussiness <br/>with us</p>
             <div class="social-icons flex ">
               <a  href="#"> <img className='w-10'  src={fb}/></a>

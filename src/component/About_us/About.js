@@ -15,15 +15,16 @@ import Newabout from './Newabout.js';
 import imgspring from '../../images/6909.jpg'
 import Abou from './Abou.js';
 import imgsprin from '../../images/4380.jpg'
-import Counts from '../Home-page/home_counter'
+import Counts from '../Home-page/home_counter';
+import HomeComponent from '../Home-page/Homecomponent.js';
 
 
 
 function About() {
   return (
     <>
-    <div className='app-container'><Top_banner />
-      <Newabout/><Abou/><Counts/><Testimonials/><Clients/><FBanner/><Footer/>
+    <div className='app-container'><Top_banner /><HomeComponent/>
+      <Newabout /><Abou/><Counts/><Testimonials/><Clients/><FBanner/><Footer/>
       
     </div>
     </>

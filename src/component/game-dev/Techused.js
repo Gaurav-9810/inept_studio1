@@ -57,7 +57,7 @@ function Techused() {
               <h2 className='text-lg font-bold font-mono text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>UNITY</h2>
               <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>Unity is what you need to develop amazing 3D games. The top game creation software has an easy user-interface and can be used by beginners. This game development software can add amazing cinematic effects as well to make the game interesting.</p>
               
-               <span id="a" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+              <a href = 'https://docs.unity.com/' target="_blank"> <span id="a" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -71,7 +71,7 @@ function Techused() {
               <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>GAME_MAKER</h2>
               <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>GameMaker: Studio is the best game app development software that helps you develop fun-filled games. This best game development software offers advanced gaming tutorials for beginners to work as professionals.You can create customized gaming .</p>
               
-               <span id="b" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+              <a href = 'https://manual.yoyogames.com/#t=Content.htm' target="_blank"><span id="b" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -85,7 +85,7 @@ function Techused() {
               <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>STENCLY</h2>
               <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>Stencyl makes game development easy with its code-free operations. The game development software has the drag-and-drop interface. You can embed ads, create online payment gateways in your game, and make extra money by using this game app development software.</p>
               
-               <span id="c" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+              <a href = 'https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwis2JHL4uH5AhXgRmwGHW_DAF0QFnoECB0QAQ&url=https%3A%2F%2Fdocs.unrealengine.com%2F4.27%2Fen-US%2FAPI%2FPlugins%2FMovieRenderPipelineRenderPasses%2FUMoviePipelineDeferredPassBase%2FStencilLayers%2F&usg=AOvVaw2O8cXGur8PNHcNstlymwBE' target="_blank"><span id="c" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -99,7 +99,7 @@ function Techused() {
               <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>ACREATE</h2>
               <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>ACreate games that are loved by all by using AI-driven top game creation software, Autodesk. With its easy drag-and-drop interface, high customization ability, and hassle-free operations, calling it as best game development software won’t be wrong.</p>
               
-               <span id="d" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+              <a href = 'https://www.gamedesigning.org/learn/game-design-document/' target="_blank"><span id="d" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -113,7 +113,7 @@ function Techused() {
               <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>BLENDER</h2>
               <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>Blender is an open-source best game app development software that can create engaging and adventurous games over a single click. This top game development software can do motion tracking, video editing, modeling, and any other type of 3D designing easily. </p>
               
-               <span id="e" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+              <a href = 'https://docs.blender.org/' target="_blank"><span id="e" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -127,7 +127,7 @@ function Techused() {
               <h2  className='text-lg font-bold font-serif text-black mt-6 mb-1 ' style={{fontFamily:'Raleway, sans-serif'}}>GAMESALAD</h2>
               <p  className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>GameSalad is an innovative game development software that makes learning fun by creating useful gaming learning content. The game app development software can easily include the K12 curriculum in a gaming environment and enhance learning.</p>
               
-               <span id="f" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span>
+              <a href = 'https://forums.gamesalad.com/discussion/32639/better-gamesalad-online-documentation' target="_blank"><span id="f" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>

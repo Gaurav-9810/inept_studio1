@@ -217,7 +217,7 @@ function Top_banner() {
 
 
 		<div className='flex justify-center   relative overflow-hidden'>
-			    <h1 class=" text-3xl sm:text-5xl md:text-5xl mt-44 font-semibold text-white z-10 ">3D DEVELOPMENT</h1>
+			    <h1 class=" text-3xl sm:text-5xl md:text-7xl mt-44 font-semibold text-white z-10 ">3D DEVELOPMENT</h1>
 			  <div  className="top_leftanim  " >
 				<img  src={RightwhiteCurve}/>
         
