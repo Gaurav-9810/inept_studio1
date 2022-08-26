@@ -28,7 +28,7 @@ function Clienttest({item}) {
             <div className='layer'>
             <h5>{item.heading}</h5> 
             {/* <p> {item.about}</p> */}
-             <a href = {item.address} > <LaunchIcon className = 'icon' style = {{fontSize : '35px',margin : '5px'}}/> </a>
+             <a href = {item.address} target="_blank"> <LaunchIcon className = 'icon' style = {{fontSize : '35px',margin : '5px'}}/> </a>
             </div>   
          </div>
 
