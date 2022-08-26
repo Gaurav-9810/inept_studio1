@@ -57,7 +57,7 @@ function Techused() {
               <h2 className='text-lg font-bold font-mono text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Adobe XD</h2>
               <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>Adobe XD helps UX/UI design and development teams at the same time by giving access to a wide range of prototyping tools. Adobe XD is easy to set up and use, but also provides complex and detail-rich design tools.</p>
               
-              <a href='https://www.adobe.com/in/products/xd.html'><span id="a" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
+              <a href='https://www.adobe.com/in/products/xd.html' target="_blank"><span id="a" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -71,7 +71,7 @@ function Techused() {
               <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Figma</h2>
               <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>Figma has the ability to co-edit live with your colleagues. Besides that, the tool has a nice interface that allows the insertion of elements, animations, and code in order to create high-fidelity prototypes.</p>
              
-              <a href=' https://www.figma.com/'><span id="b" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
+              <a href=' https://www.figma.com/' target="_blank"><span id="b" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -85,7 +85,7 @@ function Techused() {
               <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>UXCam App Analytics</h2>
               <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>UXCam is analytics solution for mobile apps that allows you to get a deep understanding of user behavior. UXCam Session Recording capabilities allow to easily see how real users navigate through your app.</p>
               
-              <a href='https://uxcam.com/'><span id="c" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
+              <a href='https://uxcam.com/' target="_blank"><span id="c" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -99,7 +99,7 @@ function Techused() {
               <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Framer</h2>
               <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>Framer helps your team collaborate and focus on coding and design. Some new users complain about the interface and limitations of the program, but it provides all the flexibility and speed that is needed for designing prototypes.</p>
               
-              <a href='https://www.framer.com/'><span id="d" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
+              <a href='https://www.framer.com/' target="_blank"><span id="d" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -113,7 +113,7 @@ function Techused() {
               <h2 className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>MockFlow</h2>
               <p className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>MockFlow offers an offline mode, which makes it accessible even when your team doesn’t have access to the cloud. Its strength is in creating wireframe designs that come with templates to help speed up the creative process.Helps tp collaborate at ease with everyone on the project through DesignSpaces</p>
               
-               <a href='https://www.mockflow.com/'><span id="e" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
+               <a href='https://www.mockflow.com/' target="_blank"><span id="e" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>
@@ -127,7 +127,7 @@ function Techused() {
               <h2  className='text-lg font-bold font-serif text-black mt-4 mb-2' style={{fontFamily:'Raleway, sans-serif'}}>Flinto</h2>
               <p  className='mb-4 ' style={{fontFamily:'"Open Sans", sans-serif',fontWeight:"400",color:'#565656'}}>Flinto allows to infuse life into your prototype by helping you add animations.It helps to create more convincing, engaging experiences.The animation process does take time, and there are some limitations when trying to create interactions between components in your prototype.</p>
               
-              <a href='https://www.flinto.com/'><span id="f" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
+              <a href='https://www.flinto.com/' target="_blank"><span id="f" className='tech-btn  px-2  pb-2 pt-1 py-1 rounded-lg '>Read More</span></a>
           </div>
           </AnimationOnScroll>
         </Grid>

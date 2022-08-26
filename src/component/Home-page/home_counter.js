@@ -28,16 +28,16 @@ function Home_counter() {
         ref: "counter",
         end: 123,
         enableScrollSpy: true,
-        scrollSpyDelay: 100
+        // scrollSpyDelay: 1
       });
       useCountUp({
-        ref: "counter2",end: 120,enableScrollSpy: true, scrollSpyDelay: 100
+        ref: "counter2",end: 120,enableScrollSpy: true, scrollSpyDelay: 1
       });  
       useCountUp({
-        ref: "counter3",end: 140,enableScrollSpy: true, scrollSpyDelay: 100
+        ref: "counter3",end: 140,enableScrollSpy: true, scrollSpyDelay: 1
       }); 
       useCountUp({
-        ref: "counter4",end: 120,enableScrollSpy: true, scrollSpyDelay: 100
+        ref: "counter4",end: 120,enableScrollSpy: true, scrollSpyDelay: 1
       });   
   
 
@@ -45,6 +45,7 @@ function Home_counter() {
 
 
   return (
+    
       <div className='home_service_container'><div class="wrapper">
         {/* <span className='text-white' id="counter" /> */}
     <div class="container">
@@ -71,6 +72,7 @@ function Home_counter() {
         <span class="text">Happy Clients</span>
     </div>
 </div></div>
+
   )
 }
 

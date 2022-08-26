@@ -6,7 +6,7 @@ import CheckIcon from '@mui/icons-material/Check';
 
 export default function Newabout() {
   return (
-    <div className="About-section2">
+    <div className="About-section2 mt-20">
 
       <div className="About-container5">
         

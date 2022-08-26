@@ -71,7 +71,7 @@ function Top_banner() {
     <>
       <section class="header pt-8  mb-10 overflow-hidden">
 		<nav className='hidden md:flex px-3'>
-			<a className='w-1/5 pl-4' href="/"><img className='w-3/4 ' src={toplogo}/></a>
+			<a className='w-1/5 pl-16  cursor-pointer z-50 ' href="/"><img className='w-2/5 h-4/6 ' src={toplogo}/></a>
 			<div className="w-4/5 flex sm:justify-center  " id="navLinks">
 				 
                 <ul className='flex justify-evenly sm:w-4/5 lg:w-3/5 '>
@@ -217,7 +217,7 @@ function Top_banner() {
 
 
 		<div className='flex justify-center   relative overflow-hidden'>
-			    <h1 class=" text-3xl sm:text-5xl md:text-5xl mt-44 font-semibold text-white z-10 ">GAME DEVELOPMENT</h1>
+			    <h1 class=" text-3xl sm:text-5xl md:text-7xl mt-44 font-semibold text-white z-10 ">GAME DEVELOPMENT</h1>
 			  <div  className="top_leftanim  " >
 				<img  src={RightwhiteCurve}/>
         

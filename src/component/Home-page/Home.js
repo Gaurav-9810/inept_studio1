@@ -17,7 +17,7 @@ import Home_Service from './Home_Service.js';
 function Home() {
   return (
     <>
-    <div className='app-container'><Top_banner /><Home_Service/><Homecomponent/>
+    <div className='app-container'><Top_banner /><div className='mb-10'><Home_Service /></div>
       <Testimonials/><Clients/><Counter/><Faq/><FBanner/><Footer/>
     </div>
     </>
