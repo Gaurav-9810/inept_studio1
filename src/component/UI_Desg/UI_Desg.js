@@ -1,6 +1,6 @@
 import React from 'react'
 import TwoD_deignbeni from './TwoD_deignbeni.js';
-import Process from './Process.js'; 
+import Process from '../digital/Steps.js'; 
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
 import Techused from './Techused.js';
 import Faq from './Faq.js';

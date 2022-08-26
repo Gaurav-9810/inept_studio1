@@ -8,7 +8,7 @@ function TwoD_deignbeni() {
     <div className='mt-3 mx-4 md:flex  md:mx-10  pb-6 lg:mb-8 '>
       <div className=' md:w-1/2  xl:mx-auto    '>
           <h1 className='font-semibold text-4xl sm:text-5xl mb-6'>How Application help your business</h1>
-        <ol className='text-lg lg:text-2xl sm:text-xl font-normal '>
+        <ol className='text-lg  '>
           <li className='leading-10'>1- Provides more brand value for your customers.</li>
           <li className='leading-10'>2- Builds a stronger brand.</li>
           <li className='leading-10'>3- Connects you with your client base efficiently.</li>

@@ -5,10 +5,10 @@ import image1 from '../../images/web_dev.jpg';
 
 function TwoD_deignbeni() {
   return (
-    <div className='mt-3 mx-4 md:flex  md:mx-10  pb-6 lg:mb-8 xl:mb-20'>
-      <div className=' md:w-1/2  xl:mx-auto    '>
+    <div className='mt-3 mx-4 md:flex  md:mx-10   lg:mb-4 xl:mb-20'>
+      <div className=' md:w-1/2  xl:mx-auto'>
           <h1 className='font-semibold text-4xl sm:text-5xl mb-6'>How Website Help Your Business</h1>
-        <ol className='text-lg lg:text-2xl sm:text-xl font-normal '>
+        <ol className='text-lg '>
           <li className='leading-10'> 1 - Your website can attract new customers through google.</li>
           <li className='leading-10'>2 - A website makes you look professional.</li>
           <li className='leading-10'>3 - You can clearly showcase your products and services.</li>

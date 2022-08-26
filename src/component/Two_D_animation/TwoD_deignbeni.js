@@ -5,10 +5,10 @@ import image1 from '../../images/2DDesign.jpg';
 
 function TwoD_deignbeni() {
   return (
-    <div className='mt-3 mx-4 sm:flex  sm:mx-10  pb-6 lg:mb-8 xl:mb-20'>
+    <div className='mt-3 mx-4 sm:flex  sm:mx-10  mb-6 lg:mb-8 xl:mb-20'>
       <div className=' sm:w-1/2  xl:mx-auto    '>
           <h1 className='font-semibold text-4xl sm:text-5xl mb-6'>How 2D Design help your bussiness</h1>
-        <ol className='text-lg lg:text-xl sm:text-lg font-normal '>
+        <ol className='text-lg'>
           <li className='leading-10'> 1 - 2D design helps in creating a powerful impression of your brand on social media.</li>
           <li className='leading-10'>2 - It builds a unique identity for your Brand. Company logos, website logos are all important to make your brand stand out from the rest.</li>
           <li className='leading-10'>3 - It indicates professionalism.</li>

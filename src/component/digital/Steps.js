@@ -36,7 +36,7 @@ function Steps() {
       {/* <AnimationOnScroll  > */}
             
       {/* </AnimationOnScroll> */}
-            <div className=' lg:w-2/5 flex flex-col justify-center  lg:mr-6 '>
+            <div className='md:w-6/12 lg:w-2/5 flex flex-col justify-center  lg:mr-6 '>
       <AnimationOnScroll  animateOnce={true}  animateIn="animated animatedFadeInUp sideanimation2">
                  
                   <div className='lg:mr-4 lg:ml-4 mb-4  rounded-md cursor-pointer shadow-md bg-violet-700  ' onClick={()=>handleClick('1')}  >
@@ -82,9 +82,12 @@ function Steps() {
                   </div>
             </div>
 
-            <div className=' lg:w-4/12 lg:pb-14 lg:ml-12  '>
+            <div className=' md:w-6/12 md:flex md:items-center lg:w-4/12 lg:pb-14 lg:ml-12  '>
                   <AnimationOnScroll animateOnce={true}  animateIn="animated animatedFadeInUp sideanimation">
-                  <img className='   ' src={Faqimg}></img>
+                  <div className='flex justify-center '>
+                        <img className=' w-2/4 md:w-11/12  ' src={Faqimg}></img>
+                  </div>
+                  
                   </AnimationOnScroll>
             </div>
       </div>

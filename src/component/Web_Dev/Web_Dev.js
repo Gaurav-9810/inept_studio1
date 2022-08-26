@@ -10,7 +10,7 @@ import Testimonials from './Testimonials.js';
 import Footer from '../Home-page/Footer.js';
 import FBanner from '../Home-page/FBanner.js';
 import Top_banner from './Top_banner.js';
-import Steps from './Steps';
+import Steps from '../digital/Steps.js';
 
 
 function Web_Dev() {

@@ -5,10 +5,10 @@ import image1 from '../../images/GameDev.jpg';
 
 function TwoD_deignbeni() {
   return (
-    <div className='mt-3 mx-4 sm:flex  sm:mx-10  pb-6 lg:mb-8 xl:mb-20'>
+    <div className='mt-3 mx-4 sm:flex  sm:mx-10  mb-6 lg:mb-8 xl:mb-20'>
       <div className=' sm:w-1/2  xl:mx-auto    '>
           <h1 className='font-semibold text-4xl sm:text-5xl mb-6'>How Game development Help Your Business</h1>
-        <ol className='text-lg lg:text-2xl sm:text-xl font-normal '>
+        <ol className='text-lg  '>
           <li className='leading-10'> 1 - You can put as much time into the business as you'd like.</li>
           <li className='leading-10'>2 -It's not necessary to have a physical storefront or office space to get your business started. </li>
           <li className='leading-10'>3 - Starting a game development business can be really rewarding work.</li>
