@@ -20,7 +20,7 @@ import insta from '../../images/instagram-icon.png';
 import linkdin from '../../images/linkedin-icon.png';
 import whatsaap from '../../images/whatsapp-icon.png'
 import twitter from '../../images/twitter-icon.png';
-import sitelogo from '../../images/sitelogo.png';
+
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import CloseIcon from '@mui/icons-material/Close';
 
@@ -71,7 +71,8 @@ function Top_banner() {
     <>
       <section class="header pt-8  mb-10 overflow-hidden">
 		<nav className='hidden md:flex px-3'>
-			<a className='w-1/5 pl-4' href="/"><img className='w-3/4 ' src={toplogo}/></a>
+    <a className='w-1/5 pl-4 z-50' href="/"><img className='w-2/5 cursor-pointer -mt-5 ml-4  ' src={toplogo}/></a>
+
 			<div className="w-4/5 flex sm:justify-center  " id="navLinks">
 				 
                 <ul className='flex justify-evenly sm:w-4/5 lg:w-3/5 '>
@@ -146,7 +147,7 @@ function Top_banner() {
                                                         </IconButton>
   
                                                             <div  style={{color:"#9CA3A9"}}  className=' top_banner_phn w-80  z-40 opacity-100 bg-black h-auto max-h-screen pt-6 pl-4 overflow-scroll  '>
-                                                                  <img className='ml-6 w-28' src={sitelogo} ></img>
+                                                                  <img className=' w-28' src={toplogo} ></img>
                                                                   <ul className=' mr-6 pt-6' >
                                                                   <hr className='my-2 border-current'></hr>
                                                                       <li  style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} className='' ><a href="/">HOME</a></li>
@@ -176,7 +177,7 @@ function Top_banner() {
                                                                        </li>
                                                                        <hr className='my-2 border-current'></hr>
                                                                        <li style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} ><a href="/AboutUs">ABOUT US</a></li>
-                                                                       <hr className='my-2 border-current'></hr>
+                                                                       
                                                                        {/* <li style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}} ><a href="">BLOG</a></li>  */}
                                                                        <hr className='my-2 border-current'></hr>       
                                                                        <li style={{color:"#9CA3A9", fontSize:"15px", fontFamily:"Teko,sans-serif",fontWeight:"bold"}}  ><a href="/ContactUs">CONTACT US</a></li>
