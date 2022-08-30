@@ -26,21 +26,21 @@ function Footer() {
            <img class=" w-16 mb-4 md:w-1/4 md:ml-8 " src={logo}/>
            <p className='text-sm md:text-base lg:text-2xl mb-4'> Welcome to Inept Studio <br/> Explore your bussiness <br/>with us</p>
             <div class="social-icons flex ">
-              <a  href="#"> <img className='w-10'  src={fb}/></a>
-              <a href="#"> <img className='w-10'  src={insta}/></a>
-              <a href="#"> <img className='w-10'  src={twitter}/></a>
-              <a href="#"> <img className='w-10'  src={whatsaap}/></a>
-              <a href="#"> <img className='w-10'  src={linkdin}/></a>
+              <a className='cursor-pointer'  href="https://m.facebook.com/ineptstudio?_rdr" target="_blank"> <img className='w-10'  src={fb}/></a>
+              <a className='cursor-pointer' href="https://www.instagram.com/ineptstudio/?hl=en" target="_blank"> <img className='w-10'  src={insta}/></a>
+              <a className='cursor-pointer' href="https://twitter.com/ineptstudio" target="_blank"> <img className='w-10'  src={twitter}/></a>
+              <a className='cursor-pointer'  href="https://wa.me/+919625781411?text=hi" target="_blank"> <img className='w-10'  src={whatsaap}/></a>
+              <a className='cursor-pointer'  href="https://www.linkedin.com/company/ineptstudio/mycompany/" target="_blank"> <img className='w-10'  src={linkdin}/></a>
             </div>
       </div>
       <div class="col sm:mx-2 sm:w-3/12 md:w-2/12">
           <h2 className='text-white font-semibold text-lg md:text-xl mt-3 mb-4  md:text-xl lg:text-3xl' >EXPLORE</h2>
           <div class="nav-links">
               <ul className='text-sm md:leading-7 md:text-base lg:text-lg'>
-                  <li className=' my-2'><a href="#">Support</a></li>
-                  <li className=' my-2'><a href="#">Private Policy</a></li>
-                  <li className=' my-2'><a href="#">Terms of Use</a></li>
-                  <li className=' my-2'><a href="#">Help</a></li>
+                  <li className=' my-2'><a href="/ContactUs">Support</a></li>
+                  <li className=' my-2'><a href="/ContactUs">Private Policy</a></li>
+                  <li className=' my-2'><a href="/ContactUs">Terms of Use</a></li>
+                  <li className=' my-2'><a href="/ContactUs">Help</a></li>
               </ul>
               
           </div>

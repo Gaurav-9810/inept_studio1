@@ -14,7 +14,7 @@ function FBanner() {
     
                   <button type="button" name="Hover">MASK2</button>
              </div> */}
-             <button class="explore md:mt-4">GET Start<span class="icon-right"></span><span class="icon-right after"></span></button>
+             <a href="/ContactUs"><button class="explore md:mt-4">GET Start<span class="icon-right"></span><span class="icon-right after"></span></button></a>
       </div>
   </div>
   )
