@@ -191,11 +191,11 @@ function Top_top_banner() {
                                                                         <p className='text-sm font-extralight mt-2'>9812345674</p>
 
                                                                         <div class="flex mt-9 mb-20  ">
-                                                                            <a  href="#"> <img className='w-10'  src={fb}/></a>
-                                                                            <a href="#"> <img className='w-10'  src={insta}/></a>
-                                                                            <a href="#"> <img className='w-10'  src={twitter}/></a>
-                                                                            <a href="#"> <img className='w-10'  src={whatsaap}/></a>
-                                                                            <a href="#"> <img className='w-10'  src={linkdin}/></a>
+                                                                        <a className='cursor-pointer'  href="https://m.facebook.com/ineptstudio?_rdr" target="_blank"> <img className='w-10'  src={fb}/></a>
+                                                                            <a className='cursor-pointer'  href="https://www.instagram.com/ineptstudio/?hl=en" target="_blank"> <img className='w-10'  src={insta}/></a>
+                                                                            <a className='cursor-pointer'  href="https://twitter.com/ineptstudio" target="_blank"> <img className='w-10'  src={twitter}/></a>
+                                                                            <a className='cursor-pointer'  href="https://wa.me/+919625781411?text=hi" target="_blank"> <img className='w-10'  src={whatsaap}/></a>
+                                                                            <a className='cursor-pointer'  href="https://www.linkedin.com/company/ineptstudio/mycompany/" target="_blank"> <img className='w-10'  src={linkdin}/></a>
                                                                         </div>
 
                                                                            
@@ -223,9 +223,9 @@ function Top_top_banner() {
 				     <img className=" hidden md:block  leftanim3 " src={imgspring}/>
 
             <h1 className="z-10 hidden sm:block anim text-5xl  lg:text-6xl inline-block  lg:w-10/12  w-4/5 h-auto ">COMBINE<br/> TECHNOLOGY<br/> WITH YOUR<br/> BUSSINESS</h1>
-			    <a href="#" class=" hidden sm:block btn text-xl   anim text-sm py-2 px-4 w-72 md:w-72 ">GET MY FREE PROPOSAL</a>
+			    <a href="/ContactUs" class=" hidden sm:block btn text-xl   anim text-sm py-2 px-4 w-72 md:w-72 ">GET MY FREE PROPOSAL</a>
           <h1 className="sm:hidden  anim text-4xl  inline-block w-52">COMBINE TECHNOLOGY WITH YOUR BUSSINESS</h1>
-			    <a href="#" class="sm:hidden  btn anim text-lg py-2 px-1 w-60 z-10 ">GET MY FREE PROPOSAL</a>
+			    <a href="/ContactUs" class="sm:hidden  btn anim text-lg py-2 px-1 w-60 z-10 ">GET MY FREE PROPOSAL</a>
           </div>
           
 			  <div  className="top_leftanim  " >

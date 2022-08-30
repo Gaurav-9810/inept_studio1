@@ -177,11 +177,11 @@ function Top_banner() {
                                                                         <p className='text-sm font-extralight mt-2'>9812345674</p>
 
                                                                         <div class="flex mt-9 mb-20  ">
-                                                                            <a  href="#"> <img className='w-10'  src={fb}/></a>
-                                                                            <a href="#"> <img className='w-10'  src={insta}/></a>
-                                                                            <a href="#"> <img className='w-10'  src={twitter}/></a>
-                                                                            <a href="#"> <img className='w-10'  src={whatsaap}/></a>
-                                                                            <a href="#"> <img className='w-10'  src={linkdin}/></a>
+                                                                        <a className='cursor-pointer'  href="https://m.facebook.com/ineptstudio?_rdr" target="_blank"> <img className='w-10'  src={fb}/></a>
+                                                                            <a className='cursor-pointer'  href="https://www.instagram.com/ineptstudio/?hl=en" target="_blank"> <img className='w-10'  src={insta}/></a>
+                                                                            <a className='cursor-pointer'  href="https://twitter.com/ineptstudio" target="_blank"> <img className='w-10'  src={twitter}/></a>
+                                                                            <a className='cursor-pointer'  href="https://wa.me/+919625781411?text=hi" target="_blank"> <img className='w-10'  src={whatsaap}/></a>
+                                                                            <a className='cursor-pointer'  href="https://www.linkedin.com/company/ineptstudio/mycompany/" target="_blank"> <img className='w-10'  src={linkdin}/></a>
                                                                         </div>
 
                                                                            
