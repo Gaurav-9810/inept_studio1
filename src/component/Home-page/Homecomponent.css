@@ -45,10 +45,10 @@
     font-weight: 500;
 }
 .fullstopx{
-    color: rgb(255, 187, 0);
+    color: blueviolet;
 }
 .rightcontainerx p{
-    color: rgb(255, 187, 0);
+    color:blueviolet;
     font-size: 20px;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-family: cursive;
@@ -79,7 +79,7 @@
     font-size: 14px;
     font-weight: 700;
     color: #000;
-    background-color: #eaa30ccf;
+    background-color: blueviolet;
     padding: 1px 41px;
     border-radius:5px;
     margin-top: 5%;
@@ -99,7 +99,7 @@
     /* display: inline-block; */
     width: 12px;
     height: 138px;
-    background-color: rgb(255, 187, 0);
+    background-color: blueviolet;
     border-radius: 8px;  
 }
 
@@ -127,7 +127,7 @@
     /* height: 58%;
     width: 40%; */
     height: 100%;
-    width: 80%;
+    width: 90%;
     border-radius: 5%;
     /* position: absolute;
     top: 80%;
@@ -220,7 +220,7 @@
         font-size: 14px;
         font-weight: 700;
         color: #000;
-        background-color: #eaa30ccf;
+        background-color: blueviolet;
         padding: 1px 21px;
         border-radius:5px;
         margin-top: 5%;

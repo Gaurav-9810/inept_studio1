@@ -37,7 +37,7 @@ function Homecomponent() {
                         <li>Testing and Launch</li>
                         <li>Continuous Improvement</li>
                     </ul>
-                    <a href="#" class="btnx">DISCOVER MORE</a>
+                    <a href="/AboutUs" class="btnx">DISCOVER MORE</a>
                 </div>
 
                 <div class="rightdownx">

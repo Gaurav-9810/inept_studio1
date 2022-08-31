@@ -1,7 +1,7 @@
 import React from 'react'
 
 import TwoD_deignbeni from './TwoD_deignbeni.js';
-import Process from './Process.js'; 
+
 
 import Techused from './Techused.js';
 

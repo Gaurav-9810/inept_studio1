@@ -5,7 +5,7 @@ function FBanner() {
   return (
 <div className="banner w-11/12 bg-violet-600 py-9 mx-auto rounded-md z-10 relative top-7 ">
       <div class="card text-center sm:flex sm:justify-evenly">
-          <div className="banner-text text-lg font-bold mb-3 md:text-2xl  lg:text-4xl font">
+          <div className=" text-white banner-text text-lg font-bold mb-3 md:text-2xl  lg:text-4xl font">
               LET'S GET YOUR PROJECT <br/> STARTED !
           </div>
 
