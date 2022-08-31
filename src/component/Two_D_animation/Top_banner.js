@@ -33,7 +33,7 @@ import Modal from '@mui/material/Modal';
 
 
 
-function Top_banner() {
+function Top_banner({heading}) {
   const [open, setOpen] = useState(0);
 
   const handleOpen = (id) =>{
@@ -198,7 +198,7 @@ function Top_banner() {
 
 
 		<div className='flex justify-center   relative overflow-hidden'>
-			    <h1 class=" text-3xl sm:text-5xl md:text-7xl mt-44 font-semibold text-white z-10 ">2D DEVELOPMENT</h1>
+			    <h1 class=" text-3xl sm:text-5xl md:text-7xl mt-44 font-semibold text-white z-10 ">{heading}</h1>
 			  <div  className="top_leftanim  " >
 				<img  src={RightwhiteCurve}/>
         
