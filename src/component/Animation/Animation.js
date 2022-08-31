@@ -5,7 +5,8 @@ import Process from './Process.js';
 
 import Techused from './Techused.js';
 
-import Faq from './Faq.js';
+import Faq from '../Home-page/Faq.js';
+import {Animation1} from '../Home-page/faqData.js';
 import Clients from './Clients.js';
 import Testimonials from './Testimonials.js';
 import Footer from '../Home-page/Footer.js';
@@ -22,7 +23,7 @@ function Animation() {
   return (
     <>
     <div className='app-container'><Top_banner />
-      <TwoD_deignbeni /><Services/><Steps/><Techused/><Testimonials/><Clients/><Faq/><FBanner/><Footer/>
+      <TwoD_deignbeni /><Services/><Steps/><Techused/><Testimonials/><Clients/><Faq home={Animation1}/><FBanner/><Footer/>
       
     </div>
     </>
